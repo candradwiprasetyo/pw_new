@@ -17,7 +17,7 @@ body{
 	}
 }
 
-@-moz-keyframes breeze{
+@keyframes breeze{
 	0% {
 		-moz-transform: rotate(0deg);
 		transform: rotate(0deg);
@@ -47,7 +47,7 @@ body{
 	}
 }
 
-@-moz-keyframes breeze2{
+@keyframes breeze2{
 	0% {
 		-moz-transform: rotate(0deg);
 		transform: rotate(0deg);
@@ -126,7 +126,7 @@ body{
 .tree{
 	-webkit-transform-origin: 50% 100%;
 	-webkit-animation: breeze 5s ease-out infinite;
-	-moz-transform-origin: 50% bottom;
+	-webkit-transform-origin: 50% bottom;
 	transform-origin: 50% 100%;
 	animation: breeze 5s ease-out infinite;
 	transform-origin: 50% bottom;
@@ -135,7 +135,7 @@ body{
 .tree2{
 	-webkit-transform-origin: 50% 100%;
 	-webkit-animation: breeze2 5s ease-out infinite;
-	-moz-transform-origin: 50% bottom;
+	-webkit-transform-origin: 50% bottom;
 	transform-origin: 50% 100%;
 	animation: breeze2 5s ease-out infinite;
 	transform-origin: 50% bottom;
@@ -144,7 +144,7 @@ body{
 .tree3{
 	-webkit-transform-origin: 50% 100%;
 	-webkit-animation: breeze2 10s ease-out infinite;
-	-moz-transform-origin: 50% bottom;
+	-webkit-transform-origin: 50% bottom;
 	transform-origin: 50% 100%;
 	animation: breeze2 10s ease-out infinite;
 	transform-origin: 50% bottom;
@@ -153,7 +153,7 @@ body{
 .tree4{
 	-webkit-transform-origin: 50% 100%;
 	-webkit-animation: breeze2 3s ease-out infinite;
-	-moz-transform-origin: 50% bottom;
+	-webkit-transform-origin: 50% bottom;
 	transform-origin: 50% 100%;
 	animation: breeze2 3s ease-out infinite;
 	transform-origin: 50% bottom;
@@ -250,23 +250,53 @@ body{
 /*-------------------------welcome face------------------------*/
 
 .welcome-eyes-left{
-	border-radius:50%; width:5px; height: 8px; background: #333;
+	border-radius:50%; 
+  width:5px; 
+  height: 8px; background: #333;
 	position: absolute;
-	top: 76px;
-	left: 135px;
-	animation-name: welcome-eyes-animation;
-  animation-duration: 3s;
-  animation-iteration-count: infinite;
+	margin-top: 0px;
+	margin-left: 104px;
+	animation: welcome-eyes-animation 3s infinite;
+  -webkit-animation: welcome-eyes-animation 3s infinite;
 }
 
 .welcome-eyes-right{
 	border-radius:50%; width:5px; height: 8px; background: #333;
 	position: absolute;
-	top: 76px;
-	left: 157px;
-	animation-name: welcome-eyes-animation;
-  animation-duration: 3s;
-  animation-iteration-count: infinite;
+	margin-top: 0px;
+	margin-left: 127px;
+	animation: welcome-eyes-animation 3s 0s infinite;
+  -webkit-animation: welcome-eyes-animation 3s 0s infinite;
+}
+
+.welcome-eyebrow-left{
+  position: absolute;
+  margin-top: 0px;
+  margin-left: 101px;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  -webkit-box-shadow: 2px 2px 0 0 #333;
+  box-shadow: 2px 2px 0 0 #333;
+  -webkit-transform: rotate(220deg);
+  transform: rotate(220deg);
+  animation: welcome-eyebrow 3s 0s infinite;
+  -webkit-animation: welcome-eyebrow 3s 0s infinite;
+}
+
+.welcome-eyebrow-right{
+  position: absolute;
+  margin-top: 0px;
+  margin-left: 125px;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  -webkit-box-shadow: 2px 2px 0 0 #333;
+  box-shadow: 2px 2px 0 0 #333;
+  -webkit-transform: rotate(220deg);
+  transform: rotate(220deg);
+  animation: welcome-eyebrow 3s 0s infinite;
+  -webkit-animation: welcome-eyebrow 3s 0s infinite;
 }
 
 .welcome-mouth{
@@ -277,50 +307,10 @@ body{
   width: 20px;
   height: 5px;
   border-radius:  0  0 50% 50% /  0px 0px 100% 100%;
-  animation-name: welcome-mouth;
-  animation-duration: 3s;
-  animation-iteration-count: infinite;
+  animation: welcome-mouth 3s 0s infinite;
 }
 
-.welcome-eyebrow-left{
-	position: absolute;
-  top: 70px;
-  left: 132px;
-  width: 10px;
-  height: 10px;
-  border-radius: 50%;
-  -ms-box-shadow: 2px 2px 0 0 #333;
-  -o-box-shadow: 2px 2px 0 0 #333;
-  -webkit-box-shadow: 2px 2px 0 0 #333;
-  box-shadow: 2px 2px 0 0 #333;
-  -ms-transform: rotate(220deg);
-  /* IE 9 */
-  -webkit-transform: rotate(220deg);
-  transform: rotate(220deg);
-  animation-name: welcome-eyebrow;
-  animation-duration: 3s;
-  animation-iteration-count: infinite;
-}
 
-.welcome-eyebrow-right{
-	position: absolute;
-  top: 70px;
-  left: 155px;
-  width: 10px;
-  height: 10px;
-  border-radius: 50%;
-  -ms-box-shadow: 2px 2px 0 0 #333;
-  -o-box-shadow: 2px 2px 0 0 #333;
-  -webkit-box-shadow: 2px 2px 0 0 #333;
-  box-shadow: 2px 2px 0 0 #333;
-  -ms-transform: rotate(220deg);
-  /* IE 9 */
-  -webkit-transform: rotate(220deg);
-  transform: rotate(220deg);
-  animation-name: welcome-eyebrow;
-  animation-duration: 3s;
-  animation-iteration-count: infinite;
-}
 
 @keyframes welcome-eyebrow {
   0%   {top:70px; }
@@ -337,6 +327,27 @@ body{
 }
 
 @keyframes welcome-eyes-animation {
+    0%   {height: 8px; top: 76px;}
+    5% {height: 2px; top: 80px;}
+    10%  {height: 8px; top: 76px; }
+    100% {height: 8px; top: 76px;}
+}
+
+@-webkit-keyframes welcome-eyebrow {
+  0%   {top:70px; }
+  10% {top:65px; }
+  20%  {top:70px; }
+  100% {top:70px; }
+}
+
+@-webkit-keyframes welcome-mouth {
+  0%   {height: 5px; }
+  10% {height: 10px; }
+  20%  {height: 5px; }
+  100% {height: 5px; }
+}
+
+@-webkit-keyframes welcome-eyes-animation {
     0%   {height: 8px; top: 76px;}
     5% {height: 2px; top: 80px;}
     10%  {height: 8px; top: 76px; }
@@ -486,10 +497,22 @@ body{
 	height: 50px;
 	background: url("../images/air-balloon.png");
 	position: absolute;
-	animation-name: air-balloon;
+	-webkit-animation-name: air-balloon;
+  -webkit-animation-duration: 100s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+  animation-name: air-balloon;
   animation-duration: 100s;
   animation-iteration-count: infinite;
   animation-timing-function: linear;
+}
+
+@-webkit-keyframes air-balloon {
+    0%   {left: -200px; top:0px; }
+    25% {left:175px; top:120px; }
+    50% {left:550px; top: 80px; }
+    75% {left:925px; top: 120px; }
+    100% {left: 1300px; top:0px; }
 }
 
 @keyframes air-balloon {
@@ -517,6 +540,11 @@ body{
   height: 39px;
   background: url("../images/tale.png");
   position: absolute;
+  -webkit-transform: rotate(-15deg);
+  -webkit-animation-name: tale;
+  -webkit-animation-duration: 2s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
   transform: rotate(-15deg);
   animation-name: tale;
   animation-duration: 2s;
@@ -530,6 +558,14 @@ body{
     50% { margin-left:-8px; transform: rotate(20deg); }
     75%   {transform: rotate(0deg); }
     100% {transform: rotate(-15deg); }
+}
+
+@-webkit-keyframes tale {
+    0%   {-webkit-transform: rotate(-15deg); }
+    25%   {-webkit-transform: rotate(0deg); }
+    50% { margin-left:-8px; -webkit-transform: rotate(20deg); }
+    75%   {-webkit-transform: rotate(0deg); }
+    100% {-webkit-transform: rotate(-15deg); }
 }
 
 
@@ -561,29 +597,36 @@ body{
   height: 86px;
   background: url("../images/parlour-hand.png");
   position: absolute;
+  -webkit-animation-name: handshake;
+  -webkit-animation-duration: 2s;
+  -webkit-animation-iteration-count: infinite;
   animation-name: handshake;
   animation-duration: 2s;
   animation-iteration-count: infinite;
 }
 
 .parlour-eyes-left{
-  border-radius:50%; width:5px; height: 8px; background: #333;
+  border-radius:50%; 
+  width:5px; 
+  height: 8px; 
+  background: #333;
   position: absolute;
   margin-top: -32px;
-  left: 44px;
-  animation-name: welcome-eyes-animation;
-  animation-duration: 3s;
-  animation-iteration-count: infinite;
+  margin-left: 44px;
+  animation: welcome-eyes-animation 3s 0s infinite;
+  -webkit-animation: welcome-eyes-animation 3s 0s infinite;
 }
 
 .parlour-eyes-right{
-  border-radius:50%; width:5px; height: 8px; background: #333;
+  border-radius:50%; 
+  width:5px; 
+  height: 8px; 
+  background: #333;
   position: absolute;
   margin-top: -32px;
-  left: 67px;
-  animation-name: welcome-eyes-animation;
-  animation-duration: 3s;
-  animation-iteration-count: infinite;
+  margin-left: 67px;
+  animation: welcome-eyes-animation 3s 0s infinite;
+  -webkit-animation: welcome-eyes-animation 3s 0s infinite;
 }
 
 .parlour-mouth{
@@ -594,58 +637,47 @@ body{
   width: 20px;
   height: 5px;
   border-radius:  0  0 50% 50% /  0px 0px 100% 100%;
-  animation-name: welcome-mouth;
-  animation-duration: 3s;
-  animation-iteration-count: infinite;
+  animation: welcome-mouth 3s 0s infinite;
+  -webkit-animation: welcome-mouth 3s 0s infinite;
 }
 
 .parlour-eyebrow-left{
   position: absolute;
   margin-top: -32px;
-  left: 40px;
+  margin-left: 40px;
   width: 10px;
   height: 10px;
   border-radius: 50%;
-  -ms-box-shadow: 2px 2px 0 0 #333;
-  -o-box-shadow: 2px 2px 0 0 #333;
   -webkit-box-shadow: 2px 2px 0 0 #333;
   box-shadow: 2px 2px 0 0 #333;
-  -ms-transform: rotate(220deg);
-  /* IE 9 */
   -webkit-transform: rotate(220deg);
   transform: rotate(220deg);
-  animation-name: welcome-eyebrow;
-  animation-duration: 3s;
-  animation-iteration-count: infinite;
+  animation: welcome-eyebrow 3s 0s infinite;
+  -webkit-animation: welcome-eyebrow 3s 0s infinite;
 }
 
 .parlour-eyebrow-right{
   position: absolute;
   margin-top: -32px;
-  left: 66px;
+  margin-left: 65px;
   width: 10px;
   height: 10px;
   border-radius: 50%;
-  -ms-box-shadow: 2px 2px 0 0 #333;
-  -o-box-shadow: 2px 2px 0 0 #333;
   -webkit-box-shadow: 2px 2px 0 0 #333;
   box-shadow: 2px 2px 0 0 #333;
-  -ms-transform: rotate(220deg);
-  /* IE 9 */
   -webkit-transform: rotate(220deg);
   transform: rotate(220deg);
-  animation-name: welcome-eyebrow;
-  animation-duration: 3s;
-  animation-iteration-count: infinite;
+  animation: welcome-eyebrow 3s 0s infinite;
+  -webkit-animation: welcome-eyebrow 3s 0s infinite;
 }
 
-@-moz-keyframes handshake{
+@keyframes handshake{
   0% {
     -webkit-transform: rotate(0deg);
     transform: rotate(0deg);
   } 
   50% {
-    -moz-transform: rotate(-40deg);
+    -webkit-transform: rotate(-35deg);
     transform: rotate(-35deg);
     top: 39px;
     left: -60px;
@@ -662,7 +694,7 @@ body{
     transform: rotate(0deg);
   } 
   50% {
-    -moz-transform: rotate(-40deg);
+    -webkit-transform: rotate(-35deg);
     transform: rotate(-35deg);
     top: 39px;
     left: -60px;
@@ -690,6 +722,7 @@ body{
   position: absolute;
   background: url("../images/screen1.png");
   animation: screen 15s 0s infinite;
+  -webkit-animation: screen 15s 0s infinite;
 }
 
 .screen2{
@@ -699,6 +732,7 @@ body{
   background: url("../images/screen2.png");
   margin-left: 311px;
   animation: screen 15s 5s infinite;
+  -webkit-animation: screen 15s 5s infinite;
 }
 
 .screen3{
@@ -708,9 +742,31 @@ body{
   background: url("../images/screen3.png");
   margin-left: 311px;
   animation: screen 15s 10s infinite;
+  -webkit-animation: screen 15s 10s infinite;
 }
 
 @keyframes screen{
+  0%{
+    margin-left:311px;
+  }
+
+  10%{
+    margin-left:0px;
+  }
+
+  30%{
+    margin-left:0px;
+  }  
+  40%{
+    margin-left:-311px;
+  }
+
+  100%{
+    margin-left:-311px;
+  }
+}
+
+@-webkit-keyframes screen{
   0%{
     margin-left:311px;
   }
@@ -766,6 +822,8 @@ body{
   background-size: cover;
   transform: rotate(-15deg);
   animation: idea 10s 0s infinite;
+  -webkit-transform: rotate(-15deg);
+  -webkit-animation: idea 10s 0s infinite;
 }
 
 .idea2{
@@ -778,6 +836,8 @@ body{
   margin-left: 600px;
   transform: rotate(15deg);
   animation: idea2 10s 1s infinite;
+  -webkit-transform: rotate(15deg);
+  -webkit-animation: idea2 10s 1s infinite;
 }
 
 @keyframes idea{
@@ -907,6 +967,133 @@ body{
   }
 }
 
+@-webkit-keyframes idea{
+  0%{
+    width: 0px;
+    height: 0px;
+    margin-top: 10px;
+    opacity: 0.5;
+  }
+  10%{
+    width: 59px;
+    height: 60px;
+    margin-top: -20px;
+    margin-left: -30px;
+    opacity: 1;
+  }
+
+  20%{
+    margin-top: -10px; 
+  }
+
+  30%{
+    margin-top: -30px; 
+  }
+
+  40%{
+    margin-top: -10px; 
+  }
+
+  50%{
+    margin-top: -30px; 
+  }
+
+  60%{
+    margin-top: -10px; 
+  }
+
+  70%{
+    margin-top: -30px; 
+  }
+
+  80%{
+    margin-top: -10px; 
+  }
+
+  90%{
+    margin-top: -30px; 
+    width: 59px;
+    height: 60px;
+    opacity: 1;
+    margin-left: -30px;
+  }
+
+  100%{
+    margin-top: 10px;
+    margin-left: 0px; 
+    width: 0px;
+    height: 0px;
+  }
+
+}
+
+@-webkit-keyframes idea2{
+  0%{
+    width: 0px;
+    height: 0px;
+    margin-top: 15px;
+    margin-left: 115px; 
+    opacity: 0.5;
+  }
+  10%{
+    width: 30px;
+    height: 30px;
+    margin-top: 0px;
+    margin-left: 100px;
+    opacity: 1;
+  }
+
+  20%{
+    margin-top: 15px; 
+    
+  }
+
+  30%{
+    margin-top: 0px; 
+    
+  }
+
+  40%{
+    margin-top: 15px; 
+   
+  }
+
+  50%{
+    margin-top: 0px; 
+    
+  }
+
+  60%{
+    margin-top: 15px; 
+   
+  }
+
+  70%{
+    margin-top: 0px; 
+    
+  }
+
+  80%{
+    margin-top: 15px; 
+    
+  }
+
+  90%{
+    margin-top: 0px; 
+    width: 30px;
+    height: 30px;
+    margin-left: 100px;
+    opacity: 1;
+  }
+
+  100%{
+    margin-top: 15px;
+    margin-left: 115px; 
+    width: 0px;
+    height: 0px;
+  }
+}
+
 
 .headband-frame{
   width: 42px;
@@ -922,6 +1109,7 @@ body{
   background: url("../images/headband.png");
   background-size: cover;
   animation: headband 8s 7s infinite;
+  -webkit-animation: headband 8s 7s infinite;
 }
 
 @keyframes headband{
@@ -953,6 +1141,35 @@ body{
   }
 }
 
+@-webkit-keyframes headband{
+  0%{
+    margin-top:0px;
+  }
+
+  10%{
+    margin-top: -3px;
+    margin-left: -10px;
+    -webkit-transform: rotate(30deg);
+  }
+
+  30%{
+    margin-top: -3px;
+    margin-left: -10px;
+    -webkit-transform: rotate(30deg);
+  }
+
+  40%{
+    margin-left: 0px;
+    margin-top: 0;
+    -webkit-transform: rotate(0deg);
+  }
+
+  100%{
+    margin-left:  0px;
+    -webkit-transform: rotate(0deg);
+  }
+}
+
 /*--------------------------------fan-----------------------------------*/
 
 .fan-frame{
@@ -970,9 +1187,11 @@ body{
 	background: url("../images/fan-top.png");
 	position: relative;
   animation:fan-top 8s infinite;
-  -webkit-transform: rotateY(30deg); /* Safari */
   transform: rotateY(30deg);
   animation-timing-function: linear;
+  -webkit-animation:fan-top 8s 0s infinite;
+  -webkit-transform: rotateY(30deg); /* Safari */
+  -webkit-animation-timing-function: linear;
 }
 
 .centerFan{
@@ -984,11 +1203,9 @@ body{
   border-radius:100%;
   background:rgba(255,255,255,.7);
   -webkit-animation:rotateAnimation 8s infinite;
-  -moz-animation:rotateAnimation 8s infinite;
-  -o-animation:rotateAnimation 8s infinite;
-  -ms-animation:rotateAnimation 8s infinite;
   animation:rotateAnimation 8s infinite;
   animation-timing-function: linear;
+  -webkit-animation-timing-function: linear;
 }
 .item1,.item2, .item3{
   width:30px;
@@ -997,9 +1214,6 @@ body{
   position:relative;
   border-radius:10px; 
   -webkit-box-shadow:1px 1px 20px rgba(255,255,255,.4);
-  -moz-box-shadow:1px 1px 20px rgba(255,255,255,.4);
-  -ms-box-shadow:1px 1px 20px rgba(255,255,255,.4);
-  -o-box-shadow:1px 1px 20px rgba(255,255,255,.4);
   box-shadow:1px 1px 20px rgba(255,255,255,.4);
 }
 .item1{
@@ -1010,69 +1224,58 @@ body{
   top:-38px;
   left: 35px;
   transform: rotate(120deg);
+  -webkit-transform: rotate(120deg);
 }
 .item3{
   top:-88px;
   left: -35px;
   transform: rotate(240deg);
+  -webkit-transform: rotate(240deg);
 }
 
 
 @-webkit-keyframes rotateAnimation{
- 50%{
-    transform-origin: center;
-   transform: rotate(3turn);
- }
+  0%{
+    left:1032px;
+    -webkit-transform: rotateY(30deg) rotate(7turn);
+    -webkit-transform-origin: center;
+  }
+  25%{
+    left:1042px;
+    -webkit-transform: rotateY(0deg) rotate(10turn);
+    -webkit-transform-origin: center;
+  }
+
+  50%{
+    left: 1052px;
+    -webkit-transform: rotateY(30deg) rotate(13turn); /* Safari */
+    -webkit-transform-origin: center;
+  } 
+
+  75%{
+    left: 1042px;
+    -webkit-transform: rotateY(0deg) rotate(16turn);
+    -webkit-transform-origin: center;
+  }
   100%{
-    transform-origin: center;
-   transform: rotate(5turn);
+    left: 1032px;
+    -webkit-transform-origin: center;
+    -webkit-transform: rotateY(30deg) rotate(19turn);
 
   } 
 }
-@-moz-keyframes rotateAnimation{
- 50%{
-    transform-origin: center;
-   transform: rotate(3turn);
- }
-  100%{
-    transform-origin: center;
-   transform: rotate(5turn);
 
-  } 
-}
-@-ms-keyframes rotateAnimation{
- 50%{
-    transform-origin: center;
-   transform: rotate(3turn);
- }
-  100%{
-    transform-origin: center;
-   transform: rotate(5turn);
-
-  } 
-}
-@-o-keyframes rotateAnimation{
- 50%{
-    transform-origin: center;
-   transform: rotate(3turn);
- }
-  100%{
-    transform-origin: center;
-   transform: rotate(5turn);
-
-  } 
-}
 @keyframes rotateAnimation{
- 0%{
+  0%{
     left:1032px;
     transform: rotateY(30deg) rotate(7turn);
     transform-origin: center;
- }
- 25%{
+  }
+  25%{
     left:1042px;
     transform: rotateY(0deg) rotate(10turn);
     transform-origin: center;
- }
+  }
 
   50%{
     left: 1052px;
@@ -1093,34 +1296,56 @@ body{
   } 
 }
 
-@keyframes fan-top{
+@-webkit-keyframes fan-top{
  0%{
     left: 970px;
     -webkit-transform: rotateY(30deg); /* Safari */
-    transform: rotateY(30deg);
  }
 
  25%{
     left: 980px;
     -webkit-transform: rotateY(0deg); /* Safari */
-    transform: rotateY(0deg);
  }
 
   50%{
     left: 990px;
     -webkit-transform: rotateY(-30deg); /* Safari */
-    transform: rotateY(-30deg);
   } 
 
   75%{
     left: 980px;
     -webkit-transform: rotateY(0deg); /* Safari */
-    transform: rotateY(0deg);
   }
 
   100%{
     left: 970px;
     -webkit-transform: rotateY(30deg); /* Safari */
+  }
+}
+
+@keyframes fan-top{
+ 0%{
+    left: 970px;
+    transform: rotateY(30deg);
+ }
+
+ 25%{
+    left: 980px;
+    transform: rotateY(0deg);
+ }
+
+  50%{
+    left: 990px;
+    transform: rotateY(-30deg);
+  } 
+
+  75%{
+    left: 980px;
+    transform: rotateY(0deg);
+  }
+
+  100%{
+    left: 970px;
     transform: rotateY(30deg);
   }
 }
@@ -1139,22 +1364,34 @@ body{
   margin-top:275px;
   margin-left: -40px;
   animation: pan 0.2s 0s infinite;
+  -webkit-animation: pan 0.2s 0s infinite;
 }
 
 @keyframes pan{
   0%{
-    -webkit-transform: rotate(10deg); /* Safari */
     transform: rotate(10deg);
   }
 
   50%{
-    -webkit-transform: rotate(-10deg); /* Safari */
     transform: rotate(-10deg);
   }
 
   100%{
-    -webkit-transform: rotate(10deg); /* Safari */
     transform: rotate(10deg);
+  }
+}
+
+@-webkit-keyframes pan{
+  0%{
+    -webkit-transform: rotate(10deg); /* Safari */
+  }
+
+  50%{
+    -webkit-transform: rotate(-10deg); /* Safari */
+  }
+
+  100%{
+    -webkit-transform: rotate(10deg); /* Safari */
   }
 }
 
@@ -1219,18 +1456,23 @@ body{
 }
 .stove-fire:nth-child(1) {
   animation: stove-fire 2s 0s infinite;
+  -webkit-animation: stove-fire 2s 0s infinite;
 }
 .stove-fire:nth-child(2) {
   animation: stove-fire 1.5s 0s infinite;
+  -webkit-animation: stove-fire 1.5s 0s infinite;
 }
 .stove-fire:nth-child(3) {
   animation: stove-fire 1s 0s infinite;
+  -webkit-animation: stove-fire 1s 0s infinite;
 }
 .stove-fire:nth-child(4) {
   animation: stove-fire 0.5s 0s infinite;
+  -webkit-animation: stove-fire 0.5s 0s infinite;
 }
 .stove-fire:nth-child(5) {
   animation: stove-fire 0.2s 0s infinite;
+  -webkit-animation: stove-fire 0.2s 0s infinite;
 }
 
 /* ============================================== Animation Fire
@@ -1246,6 +1488,20 @@ body{
     background: rgba(255, 50, 0, 0.1);
     box-shadow: 0 0 40px 20px rgba(248, 233, 209, 0.2);
     transform: translateY(-20px) scale(0);
+  }
+}
+
+@-webkit-keyframes stove-fire {
+  0%, 100% {
+    background: rgba(254, 248, 97, 0.5);
+    -webkit-box-shadow: 0 0 40px 10px rgba(248, 233, 209, 0.2);
+    -webkit-transform: translateY(0) scale(1);
+
+  }
+  50% {
+    background: rgba(255, 50, 0, 0.1);
+    -webkit-box-shadow: 0 0 40px 20px rgba(248, 233, 209, 0.2);
+    -webkit-transform: translateY(-20px) scale(0);
   }
 }
 
@@ -1275,24 +1531,38 @@ body{
   border-radius: 50%;
   opacity: 0.5;
   animation-timing-function: linear;
+  -webkit-animation-timing-function: linear;
 }
 
 .drop1{
   margin-left: 5px;
   animation: water 1.5s 0s infinite;
+  -webkit-animation: water 1.5s 0s infinite;
 }
 
 .drop2{
   margin-left: 10px;
   animation: water 1.5s 1s infinite;
+  -webkit-animation: water 1.5s 1s infinite;
 }
 
 .drop3{
   margin-left: 15px;
   animation: water 1.5s 2s infinite;
+  -webkit-animation: water 1.5s 2s infinite;
 }
 
 @keyframes water{
+  0%{
+    margin-top:10px;
+  }
+
+  100%{
+    margin-top:400px;
+  }
+}
+
+@-webkit-keyframes water{
   0%{
     margin-top:10px;
   }

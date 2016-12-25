@@ -132,7 +132,6 @@
           <div class="item4"></div> -->
         </div>
         <div class="fan-top"></div>
-
       </div>
 
     </div>
