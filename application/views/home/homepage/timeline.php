@@ -65,7 +65,6 @@
                         <h2>Work @ Webtocrat Motion </h2>
                         <p>In 2015, I worked as IT Developer in Webtocrat Motion. 
 Webtocrat Motion is a company engaged in website creation services, focus on technology research and branding strategy for a product
-
                         </p>
                         <span class="cd-date">Jun 01, 2015</span>
                       </div> <!-- cd-timeline-content -->

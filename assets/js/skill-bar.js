@@ -9,7 +9,7 @@
 
     // SIGNATURE PROGRESS
     function moveProgressBar() {
-      console.log("moveProgressBar");
+      //console.log("moveProgressBar");
 
         for(i=1; i<7; i++){
             var getPercent = ($('.progress-wrap'+i).data('progress-percent'+i) / 100);
