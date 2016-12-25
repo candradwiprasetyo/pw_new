@@ -150,10 +150,10 @@ a:hover {
   box-shadow: 0 0 7px rgba(0, 0, 0, 0.1);
   color: #666;
 }
-.navbar-inverse.scroll-fixed-navbar .navbar-brand {
+/*.navbar-inverse.scroll-fixed-navbar .navbar-brand {
 	color:#666;
   background: url("../../images/logo-dark.png") no-repeat center;
-}
+}*/
 .navbar-inverse.scroll-fixed-navbar .navbar-nav li a {
   color: #999;
   padding: 30px 20px;
@@ -1322,13 +1322,13 @@ a:hover {
   .navbar-inverse .navbar-toggle:hover span.icon-bar {
     background: #ffffff;
   }
-  .navbar-inverse .navbar-brand {
+  /*.navbar-inverse .navbar-brand {
     padding: 10px 20px;
     background: url("../../images/logo-dark.png") no-repeat center;
 	font-size:14px;
     text-transform:uppercase;
 	color:#666;
-  }
+  }*/
   .navbar-inverse .navbar-collapse {
     border-color: #dddddd;
   }

@@ -450,6 +450,7 @@ body{
     0%   {left: -200px; top:0px;  transform: rotate(45deg);}
     25% {left:150px; top:100px;  transform: rotate(0deg);}
     90% {left:1000px; top: 100px;  transform: rotate(0deg);}
+    91% {left:1020px; top: 140px;  transform: rotate(0deg);}
     100% {left: 1200px; top:0px;  transform: rotate(-45deg);}
 }
 

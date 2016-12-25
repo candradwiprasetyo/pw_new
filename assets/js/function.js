@@ -85,9 +85,9 @@ function validasi_email(string){
 
 						swal({
 							html:true,
-							title: "Upps !",
+							title: "Upss !",
 							text: message_error,
-							imageUrl: 'assets/images/candramelon.png'
+							imageUrl: 'assets/images/face_original.png'
 						});
 						return false;
 					
@@ -97,7 +97,7 @@ function validasi_email(string){
 						swal({
 						title: "Thanks !",
 						text: "I will immediately reply your message",
-						imageUrl: 'assets/images/candramelon.png',
+						imageUrl: 'assets/images/face_original.png',
 						showCancelButton: false,
 						confirmButtonColor: '#DD6B55',
 						confirmButtonText: 'OK'
