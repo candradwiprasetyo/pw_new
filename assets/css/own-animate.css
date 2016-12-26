@@ -362,10 +362,8 @@ body{
   margin-right: auto;
   margin-left: auto;
   position: relative;
-
 }
 .plane{
-	top: 100px;
 	width: 100px;
 	height: 50px;
 	background: url("../images/plane.png");
@@ -381,27 +379,23 @@ body{
 }
 
 .smoke {
-	top: 140px;
-  border-radius: 10px;
+  width: 10px;
+  height: 5px;
   position: absolute;
-  width: 20px;
-  height: 10px;
-  animation-name: smoke;
+  margin-top: 20px;
+/*  animation-name: smoke;
   animation-duration: 20s;
   animation-iteration-count: infinite;
   animation-timing-function: linear;
   -webkit-animation-name: smoke;
   -webkit-animation-duration: 20s;
   -webkit-animation-iteration-count: infinite;
-  -webkit-animation-timing-function: linear;
+  -webkit-animation-timing-function: linear;*/
 }
 
 .fuego {
   border-radius: 100%;
   position: absolute;
-  top: -20px;
-  left: 50%;
-  margin-left: -10px;
   width:20px;
   height: 10px;
 }
@@ -467,17 +461,17 @@ body{
 
 @keyframes smoke {
     0%   {left: -200px; top:0px;  transform: rotate(45deg);}
-    25% {left:150px; top:140px;  transform: rotate(0deg);}
-    90% {left:1000px; top: 140px;  transform: rotate(0deg);}
-    91% {left:1020px; top: 140px;  transform: rotate(0deg);}
+    25% {left:150px; top:120px;  transform: rotate(0deg);}
+    90% {left:1000px; top: 120px;  transform: rotate(0deg);}
+    91% {left:1020px; top: 120px;  transform: rotate(0deg);}
     100% {left: 1200px; top:0px; }
 }
 
 @-webkit-keyframes smoke {
     0%   {left: -200px; top:0px;  transform: rotate(45deg);}
-    25% {left:150px; top:140px;  transform: rotate(0deg);}
-    90% {left:1000px; top: 140px;  transform: rotate(0deg);}
-    91% {left:1020px; top: 140px;  transform: rotate(0deg);}
+    25% {left:150px; top:120px;  transform: rotate(0deg);}
+    90% {left:1000px; top: 120px;  transform: rotate(0deg);}
+    91% {left:1020px; top: 120px;  transform: rotate(0deg);}
     100% {left: 1200px; top:0px; }
 }
 

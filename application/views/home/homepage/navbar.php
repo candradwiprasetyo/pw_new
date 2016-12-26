@@ -6,13 +6,16 @@
   </div>
 
 <div class="plane-frame">
-  <div class="plane"></div>
-  <div class="smoke">
+  
+  
+  <div class="plane">
+    <div class="smoke">
       <div class="fuego"></div>
       <div class="fuego"></div>
       <div class="fuego"></div>
       <div class="fuego"></div>
       <div class="fuego"></div>
+    </div>
   </div>
 </div>
 
