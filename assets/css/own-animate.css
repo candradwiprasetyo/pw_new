@@ -452,11 +452,10 @@ body{
 }
 
 @-webkit-keyframes plane {
-    0%   {left: -200px; top:0px;  transform: rotate(45deg);}
-    25% {left:150px; top:100px;  transform: rotate(0deg);}
-    90% {left:1000px; top: 100px;  transform: rotate(0deg);}
-    91% {left:1020px; top: 140px;  transform: rotate(0deg);}
-    100% {left: 1200px; top:0px;  transform: rotate(-45deg);}
+    0%   {left: -200px; top:0px;  -webkit-transform: rotate(45deg);}
+    25% {left:150px; top:100px;  -webkit-transform: rotate(0deg);}
+    90% {left:1000px; top: 100px;  -webkit-transform: rotate(0deg);}
+    100% {left: 1200px; top:0px;  -webkit-transform: rotate(-45deg);}
 }
 
 @keyframes smoke {
@@ -468,10 +467,10 @@ body{
 }
 
 @-webkit-keyframes smoke {
-    0%   {left: -200px; top:0px;  transform: rotate(45deg);}
-    25% {left:150px; top:120px;  transform: rotate(0deg);}
-    90% {left:1000px; top: 120px;  transform: rotate(0deg);}
-    91% {left:1020px; top: 120px;  transform: rotate(0deg);}
+    0%   {left: -200px; top:0px;  -webkit-transform: rotate(45deg);}
+    25% {left:150px; top:120px;  -webkit-transform: rotate(0deg);}
+    90% {left:1000px; top: 120px;  -webkit-transform: rotate(0deg);}
+    91% {left:1020px; top: 120px;  -webkit-transform: rotate(0deg);}
     100% {left: 1200px; top:0px; }
 }
 
@@ -1191,7 +1190,6 @@ body{
   height:30px;
   position: absolute;
   border-radius:100%;
-  background:rgba(255,255,255,.7);
   margin-top: 60px;
   margin-left: 60px;
   -webkit-animation:rotateAnimation 8s infinite;
@@ -1300,7 +1298,7 @@ body{
  }
 
   50%{
-    -webkit-transform: rotateY(-30deg); /* Safari */
+    -webkit-transform: rotateY(30deg); /* Safari */
     margin-left: 10px;
   } 
 
@@ -1327,7 +1325,7 @@ body{
  }
 
   50%{
-    transform: rotateY(-30deg);
+    transform: rotateY(30deg);
     margin-left: 10px;
   } 
 
