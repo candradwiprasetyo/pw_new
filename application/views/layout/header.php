@@ -1,13 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <meta name="google-site-verification" content="IkVIskFzvP-F6VO8IyOP0yNwJHLgI0oFNDcG3W0Ns0s" />
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Melon Development">
     <link rel="icon" href="assets/images/logo_small.ico">
     <title>Candra Dwi Prasetyo</title>
+    <meta name="description" content="I am a FRONT END DEVELOPER based in Surabaya, East Java, Indonesia. My skills are web design, web programming and web application. I've designed websites for small businesses, company profile, personal website, more." />
+    <meta property="og:title" content="Candra Dwi Prasetyo" />
+    <meta property="og:description" content="I am a FRONT END DEVELOPER based in Surabaya, East Java, Indonesia. My skills are web design, web programming and web application. I've designed websites for small businesses, company profile, personal website, more." />
+    <meta property="og:image" content="http://oi63.tinypic.com/153wd8w.jpg" />
+    <meta property="og:url" content="https://www.candradwiprasetyo.com" />
+    <meta property="og:site_name" content="Candra Dwi Prasetyo" />
 
-      <!-- Bootstrap -->
+    <!-- Bootstrap -->
     <link href="<?= base_url() ?>assets/css/bootstrap.css" rel="stylesheet">
 
     <!-- font-awesome.css -->
