@@ -76,11 +76,25 @@ Webtocrat Motion is a company engaged in website creation services, focus on tec
                       </div> <!-- cd-timeline-img -->
                 
                       <div class="cd-timeline-content">
-                        <h2>Work @ Dragon Capital Center Jakarta </h2>
+                        <h2>Work @ Dragon Capital Center </h2>
                         <p>This is my first experience joining a startup company. I am working as a front end developer. I create website for "The first Virtual Social Media in the World CIAYO". https://www.ciayo.com/
 
                         </p>
-                        <span class="cd-date">Apr 03, 2016</span>
+                        <span class="cd-date">Mar 03, 2016</span>
+                      </div> <!-- cd-timeline-content -->
+                    </div> <!-- cd-timeline-block -->
+
+                    <div class="cd-timeline-block">
+                     <div class="cd-timeline-img cd-default">
+                        <img src="<?= base_url() ?>assets/images/work.png" alt="Picture">
+                      </div> <!-- cd-timeline-img -->
+                
+                      <div class="cd-timeline-content">
+                        <h2>Work @ Bukalapak </h2>
+                        <p>Bukalapak is one of the largest online marketplace in Indonesia. This is my first experience to join in the e-commerce company. Many new technology can I learn here. Very enjoyable course.
+
+                        </p>
+                        <span class="cd-date">Jan 16, 2017</span>
                       </div> <!-- cd-timeline-content -->
                     </div> <!-- cd-timeline-block -->
     
