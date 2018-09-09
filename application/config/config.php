@@ -16,7 +16,7 @@
 | environments.
 |
 */
-$config['base_url'] = 'http://localhost:81/pw/';
+$config['base_url'] = 'http://localhost:8888/pw_new/';
 
 /*
 |--------------------------------------------------------------------------
