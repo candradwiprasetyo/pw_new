@@ -9,7 +9,7 @@
     <meta name="msapplication-navbutton-color" content="#f5e2dc">
     <!-- iOS Safari -->
     <meta name="apple-mobile-web-app-status-bar-style" content="#f5e2dc">
-    
+
     <link rel="icon" href="assets/images/heart.ico">
 
     <link href="https://fonts.googleapis.com/css?family=Lora:700,700i|Roboto:300,400,700" rel="stylesheet">
@@ -20,6 +20,8 @@
 
     <link href="https://fonts.googleapis.com/css?family=Bubblegum+Sans" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Amatic+SC" rel="stylesheet">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js"></script>
     
     <title>Candra & Widhi Wedding</title>
 </head>

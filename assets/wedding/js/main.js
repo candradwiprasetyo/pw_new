@@ -33,6 +33,7 @@ jQuery(document).ready(function($){
 						self.revealProject();
 					});
 				} 
+				$('#scene2').hide();
 			}
 		});
 
@@ -67,6 +68,7 @@ jQuery(document).ready(function($){
 					//update the url to main page
 					window.history.pushState({path: '/wedding'}, '', 'wedding');
 				});
+				$('#scene2').show();
 			}
 		});
 

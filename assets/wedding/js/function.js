@@ -16,10 +16,11 @@ $(document).ready(function(){
       $('#section-ballon').hide();
       var items = [
       	'AWESOME!<BR>Let there be <span class="ballon-green-text">cake</span>. <br> and <span class="ballon-green-text">drink</span>', 
-      	'come for the <span class="ballon-green-text">sake</span>, stay for the <span class="ballon-green-text">vows</span>',
+      	'come for the <span class="ballon-green-text">cake</span>, <br>stay for the <span class="ballon-green-text">vows</span>',
       	'<span class="ballon-green-text">Free drinks</span><br>... And we\'re also getting married.',
       	'<span class="ballon-green-text">CTRL+S</span> the date<br>for my wedding celebration',
-      	'<span class="ballon-green-text">SHIT</span> just got real',
+      	'<span class="ballon-green-text">WOAH!</span><br>Shit just got real',
+      	'We really cannot wait to <span class="ballon-green-text">celebrate</span> with you',
       ];
       var random = items[Math.floor(Math.random()*items.length)];
       $('#section-invitation-title').html(random);
