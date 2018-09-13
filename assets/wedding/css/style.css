@@ -64,7 +64,7 @@ Main Components
   z-index: 1;
   top: 7%;
   left: 10%;
-  font-size: 4rem;
+  font-size: 3rem;
   font-weight: 300;
   -webkit-transition: opacity .4s;
   transition: opacity .4s;
@@ -760,4 +760,12 @@ Keyframes
 
 .cd-project-mask.center-title .border-frame {
   border: 2px dashed #fff;
+}
+
+.overlay-image {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background: black;
+  opacity: 0.3;
 }

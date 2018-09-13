@@ -3,6 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Chrome, Firefox OS and Opera -->
+    <meta name="theme-color" content="#f5e2dc">
+    <!-- Windows Phone -->
+    <meta name="msapplication-navbutton-color" content="#f5e2dc">
+    <!-- iOS Safari -->
+    <meta name="apple-mobile-web-app-status-bar-style" content="#f5e2dc">
+    
     <link rel="icon" href="assets/images/heart.ico">
 
     <link href="https://fonts.googleapis.com/css?family=Lora:700,700i|Roboto:300,400,700" rel="stylesheet">
