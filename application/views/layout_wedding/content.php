@@ -41,15 +41,7 @@
 
 <main class="cd-image-mask-effect wow fadeIn u-visibility-hidden" id="section-invitation">
 
-	<div id="scene2">
-		  <div data-depth="0.2" class="par-icon par-icon-1"><img src="<?= base_url() ?>assets/wedding/img/icon/5.png"></div>
-		  <div data-depth="0.6" class="par-icon par-icon-2"><img src="<?= base_url() ?>assets/wedding/img/icon/6.png"></div>
-		  <div data-depth="0.3" class="par-icon par-icon-3"><img src="<?= base_url() ?>assets/wedding/img/icon/1.png"></div>
-		  <div data-depth="0.8" class="par-icon par-icon-4"><img src="<?= base_url() ?>assets/wedding/img/icon/2.png"></div>
-		  <div data-depth="0.5" class="par-icon par-icon-5"><img src="<?= base_url() ?>assets/wedding/img/icon/3.png"></div>
-		  <div data-depth="0.4" class="par-icon par-icon-6"><img src="<?= base_url() ?>assets/wedding/img/icon/7.png"></div>
-		  <div data-depth="0.3" class="par-icon par-icon-7"><img src="<?= base_url() ?>assets/wedding/img/icon/4.png"></div>
-		</div>
+	
 	
 	<section class="project-1 cd-project-mask" id="section-invitation-mask">
 		<!-- <div class="letter-border letter-border-top"></div>
@@ -58,7 +50,15 @@
 		<div class="letter-border letter-border-right"></div> -->
 
 
-		
+		<div id="scene2">
+		  <div data-depth="0.2" class="par-icon par-icon-1"><img src="<?= base_url() ?>assets/wedding/img/icon/5.png"></div>
+		  <div data-depth="0.6" class="par-icon par-icon-2"><img src="<?= base_url() ?>assets/wedding/img/icon/6.png"></div>
+		  <div data-depth="0.3" class="par-icon par-icon-3"><img src="<?= base_url() ?>assets/wedding/img/icon/1.png"></div>
+		  <div data-depth="0.8" class="par-icon par-icon-4"><img src="<?= base_url() ?>assets/wedding/img/icon/2.png"></div>
+		  <div data-depth="0.5" class="par-icon par-icon-5"><img src="<?= base_url() ?>assets/wedding/img/icon/3.png"></div>
+		  <div data-depth="0.4" class="par-icon par-icon-6"><img src="<?= base_url() ?>assets/wedding/img/icon/7.png"></div>
+		  <div data-depth="0.3" class="par-icon par-icon-7"><img src="<?= base_url() ?>assets/wedding/img/icon/4.png"></div>
+		</div>
 
 		<div class="border-frame"></div>
 		<h1 id="section-invitation-title">AWESOME!<BR>Let there be <span class="ballon-green-text">cake</span>. <br> and <span class="ballon-green-text">drink</span></h1>

@@ -12,17 +12,15 @@
 
     <link rel="icon" href="assets/images/heart.ico">
 
-    <link href="https://fonts.googleapis.com/css?family=Lora:700,700i|Roboto:300,400,700" rel="stylesheet">
-
-    <link rel="stylesheet" href="<?= base_url() ?>assets/wedding/css/reset.css"> <!-- CSS reset -->
-    <link rel="stylesheet" href="<?= base_url() ?>assets/wedding/css/style.css"> <!-- Resource style -->
+    <link rel="stylesheet" href="<?= base_url() ?>assets/wedding/css/reset.min.css"> 
+    <link rel="stylesheet" href="<?= base_url() ?>assets/wedding/css/style.min.css"> <!-- Resource style -->
     <link rel="stylesheet" href="<?= base_url() ?>assets/css/animate.css">
 
-    <link href="https://fonts.googleapis.com/css?family=Bubblegum+Sans" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Amatic+SC" rel="stylesheet">
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js"></script>
     
     <title>Candra & Widhi Wedding</title>
+    <meta name="description" content="Candra & Widhi Wedding">
 </head>
 <body>
