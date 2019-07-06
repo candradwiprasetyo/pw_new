@@ -14,6 +14,8 @@ class Home extends CI_Controller {
 	}
  	
 	public function index() {
+
+		header('Access-Control-Allow-Origin: *');
 	
 		$data_head['title'] = "Candra Dwi Prasetyo";
 		
