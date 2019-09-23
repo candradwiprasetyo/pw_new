@@ -112,7 +112,7 @@ a:hover {
   padding-top:10px;
   height: 40px;
   background: url("../images/logo.png") no-repeat center;
-  margin: 20px 0px;
+  margin: 20px 10px;
   font-size:14px;
   text-transform:uppercase;
 }
@@ -402,8 +402,8 @@ a:hover {
   
 }
 .service .background_service{
-  min-height: 600px;
-  height: 600px;
+  min-height: 640px;
+  height: 640px;
   width: 100%;
   position: relative;
   display: table;
@@ -677,6 +677,8 @@ a:hover {
   margin-right: 5px;
   margin-bottom: 10px;
    outline:none !important;
+   border-radius: 3px;
+   font-weight: bold;
 }
 .portfolio .portfoliofilter a.current .filterbutton {
   color: #ffffff;
@@ -691,7 +693,9 @@ a:hover {
 
 .portfolio .portfoliocontent {
   margin-top: 60px;
-  width:100%;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
 }
 /*
 
@@ -1615,4 +1619,96 @@ a:hover {
 	text-transform:uppercase;
 	color:#666;
 	font-size:32px;
+}
+
+.c-popup {
+  border-radius: 5px;
+  width: 800px;
+}
+
+.c-popup__head {
+  background: #f4f4f4;
+  padding: 20px;
+}
+
+.c-popup__head__title {
+  font-size: 18px;
+  line-height: 1.2;
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+.c-popup__head__subtitle {
+  color: #999;
+  font-size: 14px;
+}
+
+.c-popup__content {
+
+}
+
+.c-popup__content img {
+  width: 100%;
+}
+
+.c-popup__description {
+  padding: 30px;
+  background: #fff;
+  font-size: 14px;
+}
+.c-popup__description__summary {
+  margin-bottom: 20px;
+}
+.c-popup__description__tech {
+
+}
+
+.c-popup__description__tech__item {
+  margin-bottom: 10px;
+}
+
+.c-popup__description__tech__item img{
+  width: 20px;
+  margin-right: 5px;
+}
+
+.c-popup__description__title {
+  font-weight: bold;
+  margin-bottom: 15px;
+  color: #333;
+}
+
+.fancybox-content {
+  padding: 0;
+}
+
+.c-popup__head__close {
+  text-align: right;
+}
+
+.c-popup__head__logo {
+  height: 45px;
+  float: left;
+  margin-right: 15px;
+}
+
+.c-popup__head__logo img{
+  height: 45px;
+}
+
+
+.fancybox-button {
+  display: none;
+}
+
+@media only screen and (max-width: 991px) {
+  .fancybox-button {
+    display: inline;
+  }
+  .c-popup__head__close {
+    text-align: left;
+    margin-top: 10px;
+  }
+
 }

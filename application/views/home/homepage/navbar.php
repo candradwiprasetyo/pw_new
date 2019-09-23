@@ -32,7 +32,9 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#"><div class="logo_new"></div><strong>Candra</strong> Dwi Prasetyo</a>
+          <a class="navbar-brand" href="#">
+            <!-- <div class="logo_new"></div> -->
+            <strong>Candra</strong> Dwi Prasetyo</a>
         </div>
         <div class="collapse navbar-collapse">
           <ul class="nav navbar-nav navbar-right">

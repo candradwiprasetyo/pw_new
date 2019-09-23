@@ -318,6 +318,7 @@ a:hover {
 			ul.icons {
 		cursor: default;
 		margin-left:-40px;
+		margin-bottom: 40px;
 	}
 
 		ul.icons li {
@@ -499,8 +500,20 @@ figure.effect-zoe figcaption {
 	background-color:#fff;
 	text-shadow:none;
 	color:#d84444;
+	border-radius: 3px;
 }
 .about_button:hover{
+	background:#d84444;
+	color: #fff;
+}
+
+.close_button{
+	background-color:#eb6565;
+	text-shadow:none;
+	color:#fff;
+	border-radius: 3px;
+}
+.close_button:hover{
 	background:#d84444;
 	color: #fff;
 }

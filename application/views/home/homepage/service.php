@@ -18,7 +18,7 @@
           </div>
         </div>
                           
-        <div class="col-md-6">
+        <div class="col-md-6" style="margin-bottom: 40px;">
           <div class="row">
             <div class="col-md-6 text wow animated fadeInDown">
               <div class="item_frame">

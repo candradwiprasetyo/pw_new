@@ -1,5 +1,5 @@
 	<!-- JavaScripts -->
-    <script src="<?= base_url() ?>assets/js/jquery.min.js"></script>
+    
    <!-- <script src="https://maps.googleapis.com/maps/api/js"></script>
    <script src="js/custom-map.js"></script>
    
@@ -8,7 +8,7 @@
     <script  src="<?= base_url() ?>assets/js/bootstrap.min.js"></script>
     <script  src="<?= base_url() ?>assets/js/jquery.parallax-1.1.3.js"></script>
     <script  src="<?= base_url() ?>assets/js/owl.carousel.min.js"></script>
-    <script  src="<?= base_url() ?>assets/js/jquery.fancybox.pack.js"></script>
+    <!-- <script  src="<?= base_url() ?>assets/js/jquery.fancybox.pack.js"></script> -->
     <script  src="<?= base_url() ?>assets/js/backstretch.js"></script>
     <script  src="<?= base_url() ?>assets/js/wow.min.js"></script>
     <script  src="<?= base_url() ?>assets/js/masonry.pkgd.min.js"></script>

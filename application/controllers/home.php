@@ -24,5 +24,9 @@ class Home extends CI_Controller {
 		$this->load->view('layout/footer'); 
 		
  	}
+
+ 	public function portfolio($id) {
+		$this->load->view('home/homepage/portfolio/'.$id);
+ 	}
 	
 }

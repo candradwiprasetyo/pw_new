@@ -34,7 +34,7 @@
     <link href="<?= base_url() ?>assets/css/jquery.fancybox.css" rel="stylesheet">
 
     <!-- Main CSS -->
-    <link href="<?= base_url() ?>assets/css/style.min.css" rel="stylesheet">
+    <link href="<?= base_url() ?>assets/css/style.css" rel="stylesheet">
     
     <!-- Portofolio -->
     <link rel="stylesheet" type="text/css" href="<?= base_url() ?>assets/css/portofolio/demo.css" />
@@ -65,7 +65,10 @@
      <!-- popmodal -->
     <link rel="stylesheet" type="text/css" href="<?= base_url() ?>assets/css/popmodal/popModal.css" />
 
-   
+    <script src="<?= base_url() ?>assets/js/jquery.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+
   
   </head>
 
