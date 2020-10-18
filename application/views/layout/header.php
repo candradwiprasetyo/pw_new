@@ -34,7 +34,7 @@
     <link href="<?= base_url() ?>assets/css/jquery.fancybox.css" rel="stylesheet">
 
     <!-- Main CSS -->
-    <link href="<?= base_url() ?>assets/css/style.css" rel="stylesheet">
+    <link href="<?= base_url() ?>assets/css/style.css?v=2" rel="stylesheet">
     
     <!-- Portofolio -->
     <link rel="stylesheet" type="text/css" href="<?= base_url() ?>assets/css/portofolio/demo.css" />

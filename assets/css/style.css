@@ -1624,6 +1624,7 @@ a:hover {
 .c-popup {
   border-radius: 5px;
   width: 800px;
+  display: none;
 }
 
 .c-popup__head {

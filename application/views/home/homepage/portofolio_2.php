@@ -141,6 +141,16 @@
             </div>
         </div>
             </section>
+            <?php $this->load->view('home/homepage/portfolio/7'); ?>
+
+            <?php $this->load->view('home/homepage/portfolio/8'); ?>
+            <?php $this->load->view('home/homepage/portfolio/9'); ?>
+            <?php $this->load->view('home/homepage/portfolio/10'); ?>
+            <?php $this->load->view('home/homepage/portfolio/11'); ?>
+            <?php $this->load->view('home/homepage/portfolio/12'); ?>
+            <?php $this->load->view('home/homepage/portfolio/13'); ?>
+            <?php $this->load->view('home/homepage/portfolio/14'); ?>
+
             <div style="clear:both;"></div>
 
 
@@ -150,20 +160,20 @@
 	?>
  	$("#js_portfolio_<?= $j ?>").on('click', function() {
  		
+	  $.fancybox.open({
+			src  : $('#divForm_<?= $j ?>'),
+			type : 'html',
+		},{
+			touch : false
+		});
+
+
 	 //  $.fancybox.open({
-		// 	src  : $('#divForm_<?= $j ?>'),
+		// 	src  : '<?= base_url() ?>home/portfolio/<?= $j ?>',
 		// 	type : 'html',
 		// },{
 		// 	touch : false
 		// });
-
-
-	  $.fancybox.open({
-			src  : '<?= base_url() ?>home/portfolio/<?= $j ?>',
-			type : 'ajax',
-		},{
-			touch : false
-		});
 
 	  
 	});
