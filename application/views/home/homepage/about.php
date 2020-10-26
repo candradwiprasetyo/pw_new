@@ -50,12 +50,12 @@
            <div class="col-md-6 col-md-offset-3 title text-center " data-wow-delay="0.1s">
            <div class="buttons">
               <div class="form-group">
-                <div class="col-md-6">
+                <!-- <div class="col-md-6">
                   <a href="<?= base_url() ?>assets/files/ResumeCandraDwiPrasetyo.pdf" target="_blank" class="def-btn about_button wow animated fadeInLeft"><strong>Download My CV</strong></a>
-                </div>
+                </div> -->
               </div>
                  <div class="form-group">
-                  <div class="col-md-6">
+                  <div class="col-md-6 col-md-offset-3">
                     <a id="dialogModal_ex1" data-modal="modal-1"  class="def-btn about_button wow animated fadeInRight" style="cursor:pointer;"><strong>Know Me Better</strong></a>
                   </div>
               </div>

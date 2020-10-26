@@ -44,7 +44,7 @@ $(document).ready(function() {
     e.preventDefault();
     $('html, body').animate({
         scrollTop: $(this.hash).offset().top-60
-    }, 1000);
+    }, 500);
   });
 
   // -------------- Jquery WOW (reveal content when scroll) -------------- 

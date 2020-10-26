@@ -4,7 +4,7 @@
             </div>
             <div class="col-md-12 title" data-wow-delay="0.1s">
                 <section id="cd-timeline" class="cd-container">
-                    <div class="cd-timeline-block ">
+                    <!-- <div class="cd-timeline-block ">
                         <div class="cd-timeline-img cd-default">
                             <img src="<?= base_url() ?>assets/images/born.png" alt="Picture">
                         </div>
@@ -13,9 +13,9 @@
                             <p>I was born on the 15th of November, 1993 in Surabaya, East Java, Indonesia</p>
                             <span class="cd-date">Nov 15, 1993</span>
                         </div>
-                    </div>
+                    </div> -->
     
-                    <div class="cd-timeline-block">
+                    <!-- <div class="cd-timeline-block">
                         <div class="cd-timeline-img cd-default">
                             <img src="<?= base_url() ?>assets/images/graduated.png" alt="Picture">
                         </div>
@@ -23,8 +23,8 @@
                             <h2>Pass Vocational High School</h2>
                             <p>I graduated from Vocational High School 2 Buduran Sidoarjo at Sidoarjo, East Java, Indonesia with basic skill in web and desktop programing </p>
                             <span class="cd-date">Jun 15, 2011</span>
-                        </div> <!-- cd-timeline-content -->
-                    </div> <!-- cd-timeline-block -->
+                        </div> 
+                    </div>  -->
     
                     <div class="cd-timeline-block">
                       <div class="cd-timeline-img cd-default">
@@ -33,7 +33,7 @@
                 
                       <div class="cd-timeline-content">
                         <h2>Work @ Elkabumi Caraka Daya </h2>
-                        <p>After graduated from VHS, I worked at Elkabumi Software House based in Surabaya. 
+                        <p>I worked at Elkabumi Software House based in Surabaya. 
                           As a Junior Programmer, I learned a lot of knowledge here. This is my first step to becoming a programmer.
                         </p>
                         
@@ -41,20 +41,20 @@
                       </div> <!-- cd-timeline-content -->
                     </div> <!-- cd-timeline-block -->
     
-                    <div class="cd-timeline-block">
-         <div class="cd-timeline-img cd-default">
-            <img src="<?= base_url() ?>assets/images/college.png" alt="Picture">
-          </div> <!-- cd-timeline-img -->
-    
-          <div class="cd-timeline-content">
-            <h2>College @ Narotama University</h2>
-            <p>
-            I entered university with a major in computer systems in Narotama University.
-            Here I would like to learn more about programming, especially web programming.
-            </p>
-            <span class="cd-date">Jun 14, 2013</span>
-          </div> <!-- cd-timeline-content -->
-        </div> <!-- cd-timeline-block -->
+                    <!-- <div class="cd-timeline-block">
+                     <div class="cd-timeline-img cd-default">
+                        <img src="<?= base_url() ?>assets/images/college.png" alt="Picture">
+                      </div>
+                
+                      <div class="cd-timeline-content">
+                        <h2>College @ Narotama University</h2>
+                        <p>
+                        I entered university with a major in computer systems in Narotama University.
+                        Here I would like to learn more about programming, especially web programming.
+                        </p>
+                        <span class="cd-date">Jun 14, 2013</span>
+                      </div> 
+                    </div>  -->
     
                     <div class="cd-timeline-block">
                      <div class="cd-timeline-img cd-default">
@@ -91,7 +91,7 @@ Webtocrat Motion is a company engaged in website creation services, focus on tec
                 
                       <div class="cd-timeline-content">
                         <h2>Work @ Bukalapak </h2>
-                        <p>Bukalapak is one of the largest online marketplace in Indonesia. This is my first experience to join in the e-commerce company. Many new technology can I learn here. Very enjoyable course.
+                        <p>Bukalapak is one of the largest online marketplace in Indonesia. This is my first experience to join in the e-commerce company. 
 
                         </p>
                         <span class="cd-date">Jan 16, 2017</span>

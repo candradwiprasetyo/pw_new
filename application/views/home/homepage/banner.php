@@ -2,8 +2,11 @@
     <script>
         $(document).ready(function (){
             $("#click").click(function (){
-               $("html, body").animate({ scrollTop: 700 }, "medium");
-  return false;
+              // $("html, body").animate({ scrollTop: 700 }, "medium");
+              $('html, body').animate({
+                scrollTop: ($('#about').offset().top-60)
+              }, 500);
+              return false;
             });
         });
     </script>
@@ -44,9 +47,6 @@
               <image xlink:href="<? base_url()?>assets/images/tree3.png" x="0" y="0" height="100px" width="100px"/>         
             </g>
           </svg>
-        </div>
-
-         <div class="tree-group2">
           <svg width="150px" height="150px" class="svg-tree3">
             <g id="tree" class="tree2">
               <image xlink:href="<? base_url()?>assets/images/tree3.png" x="0" y="0" height="150px" width="150px"/>         
@@ -66,58 +66,32 @@
           </svg>
         </div>
 
+       
+        <div class="car-frame">
+          <div class="car"></div>
+          <div class="car2"></div>
+          <div style="clear:both"></div>
+        </div>
 
+        <div class="">
+          <div class="tooltip tooltip-west">
+            <span class="tooltip-item"></span>
+            <span class="tooltip-content">
+                <div class="welcome-eyes-left"></div>
+                <div class="welcome-eyes-right"></div>
+                <div class="welcome-mouth"></div>
+                <div class="welcome-eyebrow-left"></div>
+                <div class="welcome-eyebrow-right"></div>
+              <div class="face_inhouse"></div>
+              Welcome to my house :) <br> <button id="click" class="button_inhouse">Come In</button></span>
+          </div>
+        </div>
         
-        <div class="container">
+        
 
-          <div class="car-frame">
-            <div class="car"></div>
-            <div class="car2"></div>
-            <div style="clear:both"></div>
-          </div>
-          <!--<div class="home_img">
-
-          </div>
-          -->
-          <div class="col-md-12">
-
-            <div class="tooltip tooltip-west">
-              <span class="tooltip-item"></span>
-              <span class="tooltip-content">
-                  <div class="welcome-eyes-left"></div>
-                  <div class="welcome-eyes-right"></div>
-                  <div class="welcome-mouth"></div>
-                  <div class="welcome-eyebrow-left"></div>
-                  <div class="welcome-eyebrow-right"></div>
-                <div class="face_inhouse"></div>
-
-                Welcome to my house :) <br> <button id="click" class="button_inhouse">Come In</button></span>
-              
-            </div>
-            <!--
-            <div class="title">
-            	<div class="icon_logo"></div>
-              <h1 class="wow">
-               Hi. I'am CANDRA
-              </h1>
-            </div>
-            <div class="subtitle">
-              <p>
-I'm a Web Programmer & UI Designer based in Surabaya, East Java, Indonesia. <br>If you have a project or creative need that I can help with,<br>
-- please get in touch -
- </p>
-            </div>
-            <div class="buttons">
-              <a href="#about_page" class="def-btn"><strong>Know Me Better</strong></a>
-            </div>
-            -->
-
-
-          
-            
-          </div>
-        </div><!-- /.container -->
       </div><!-- /.banner-content -->
+
+
        
     </section><!-- /.banner -->
     

@@ -1,162 +1,169 @@
 body{
-	overflow-x:hidden;
+  overflow-x:hidden;
 }
 
 @-webkit-keyframes breeze{
-	0% {
-		-webkit-transform: rotate(0deg);
-		transform: rotate(0deg);
-	}
-	50% {
-		-webkit-transform: rotate(5deg);
-		transform: rotate(5deg);
-	}
-	100% {
-		-webkit-transform: rotate(0deg);
-		transform: rotate(0deg);
-	}
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  50% {
+    -webkit-transform: rotate(5deg);
+    transform: rotate(5deg);
+  }
+  100% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
 }
 
 @keyframes breeze{
-	0% {
-		-moz-transform: rotate(0deg);
-		transform: rotate(0deg);
-	}
-	50% {
-		-moz-transform: rotate(5deg);
-		transform: rotate(5deg);
-	}
-	100% {
-		-moz-transform: rotate(0deg);
-		transform: rotate(0deg);
-	}
+  0% {
+    -moz-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  50% {
+    -moz-transform: rotate(5deg);
+    transform: rotate(5deg);
+  }
+  100% {
+    -moz-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
 }
 
 @-webkit-keyframes breeze2{
-	0% {
-		-webkit-transform: rotate(0deg);
-		transform: rotate(0deg);
-	}
-	50% {
-		-webkit-transform: rotate(10deg);
-		transform: rotate(10deg);
-	}
-	100% {
-		-webkit-transform: rotate(0deg);
-		transform: rotate(0deg);
-	}
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  50% {
+    -webkit-transform: rotate(10deg);
+    transform: rotate(10deg);
+  }
+  100% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
 }
 
 @keyframes breeze2{
-	0% {
-		-moz-transform: rotate(0deg);
-		transform: rotate(0deg);
-	}
-	50% {
-		-moz-transform: rotate(10deg);
-		transform: rotate(10deg);
-	}
-	100% {
-		-moz-transform: rotate(0deg);
-		transform: rotate(0deg);
-	}
+  0% {
+    -moz-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  50% {
+    -moz-transform: rotate(10deg);
+    transform: rotate(10deg);
+  }
+  100% {
+    -moz-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
 }
 
 .svg-tree0{
-	position: relative;
-	left: -250px;
-	top: -25px;
+  position: relative;
+  left: 120px;
+  top: -125px;
 }
 
 .svg-tree{
-	position: relative;
-	left: -330px;
-	top: -5px;
+  position: relative;
+  left: -330px;
+  top: -5px;
 }
 
 .svg-tree2{
-	position: relative;
-	left: -620px;
-	top: -45px;
+  position: relative;
+  left: -620px;
+  top: -45px;
 }
 
 .svg-tree3{
-	position: relative;
-	left: 580px;
-	top: -255px;
+  position: relative;
+  left: 180px;
+  top: -125px;
 }
 
 .svg-tree4{
-	position: relative;
-	left: 450px;
-	top: -225px;
+  position: relative;
+  left: 100px;
+  top: -125px;
 }
 
 .svg-tree5{
-	position: relative;
-	left: 400px;
-	top: -225px;
+  position: relative;
+  left: 0px;
+  top: -125px;
 }
 
 .svg-tree6{
-	position: relative;
-	left: -700px;
-	top: -70px;
+  position: relative;
+  left: -700px;
+  top: -70px;
 }
 
 .svg-root{
-	position: relative;
-	left: -755px;
-	top: 0px;
+  position: relative;
+  left: -755px;
+  top: 0px;
 }
 
 .tree-group1{
-	margin-top: 120px;
-	position: relative;
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 500px;
+  max-width: 1366px;
+  left: 50%;
+  transform: translate(-50%, 0);
 }
 
 .tree-group2{
-	position: relative;
+  position: relative;
 }
 
 
 .svg-root img{
-	width: 100%;
+  width: 100%;
 }
 .tree{
-	-webkit-transform-origin: 50% 100%;
-	-webkit-animation: breeze 5s ease-out infinite;
-	-webkit-transform-origin: 50% bottom;
-	transform-origin: 50% 100%;
-	animation: breeze 5s ease-out infinite;
-	transform-origin: 50% bottom;
+  -webkit-transform-origin: 50% 100%;
+  -webkit-animation: breeze 5s ease-out infinite;
+  -webkit-transform-origin: 50% bottom;
+  transform-origin: 50% 100%;
+  animation: breeze 5s ease-out infinite;
+  transform-origin: 50% bottom;
 }
 
 .tree2{
-	-webkit-transform-origin: 50% 100%;
-	-webkit-animation: breeze2 5s ease-out infinite;
-	-webkit-transform-origin: 50% bottom;
-	transform-origin: 50% 100%;
-	animation: breeze2 5s ease-out infinite;
-	transform-origin: 50% bottom;
+  -webkit-transform-origin: 50% 100%;
+  -webkit-animation: breeze2 5s ease-out infinite;
+  -webkit-transform-origin: 50% bottom;
+  transform-origin: 50% 100%;
+  animation: breeze2 5s ease-out infinite;
+  transform-origin: 50% bottom;
 }
 
 .tree3{
-	-webkit-transform-origin: 50% 100%;
-	-webkit-animation: breeze2 10s ease-out infinite;
-	-webkit-transform-origin: 50% bottom;
-	transform-origin: 50% 100%;
-	animation: breeze2 10s ease-out infinite;
-	transform-origin: 50% bottom;
+  -webkit-transform-origin: 50% 100%;
+  -webkit-animation: breeze2 10s ease-out infinite;
+  -webkit-transform-origin: 50% bottom;
+  transform-origin: 50% 100%;
+  animation: breeze2 10s ease-out infinite;
+  transform-origin: 50% bottom;
 }
 
 .tree4{
-	-webkit-transform-origin: 50% 100%;
-	-webkit-animation: breeze2 3s ease-out infinite;
-	-webkit-transform-origin: 50% bottom;
-	transform-origin: 50% 100%;
-	animation: breeze2 3s ease-out infinite;
-	transform-origin: 50% bottom;
+  -webkit-transform-origin: 50% 100%;
+  -webkit-animation: breeze2 3s ease-out infinite;
+  -webkit-transform-origin: 50% bottom;
+  transform-origin: 50% 100%;
+  animation: breeze2 3s ease-out infinite;
+  transform-origin: 50% bottom;
 }
 
 
@@ -170,10 +177,14 @@ body{
   max-width: 1366px;
   margin-right: auto;
   margin-left: auto;
-  position: relative;
+  position: absolute;
+  bottom: 0;
+  height: 100px;
+  left: 50%;
+  transform: translate(-50%, 0);
 }
 .car {
-	margin-top: -200px;
+  margin-top: -200px;
   width: 300px;
   height: 200px;
   background: url("../images/car.png");
@@ -205,7 +216,7 @@ body{
 
 
 .car2 {
-	margin-top: -200px;
+  margin-top: -200px;
   right:-590px; top:70px; width: 3px; height: 2px;
   background: url("../images/car2.png");
   background-size: cover;
@@ -240,32 +251,32 @@ body{
 /*------------------galon------------------------*/
 
 .galon{
-	width: 98px;
-	height: 100px;
-	margin-top: 107px;
-	position: relative;
-	left: 1000px;
+  width: 98px;
+  height: 100px;
+  margin-top: 107px;
+  position: relative;
+  left: 1000px;
 }
 
 /*-------------------------welcome face------------------------*/
 
 .welcome-eyes-left{
-	border-radius:50%; 
+  border-radius:50%; 
   width:5px; 
   height: 8px; background: #333;
-	position: absolute;
-	margin-top: 0px;
-	margin-left: 104px;
-	animation: welcome-eyes-animation 3s infinite;
+  position: absolute;
+  margin-top: 0px;
+  margin-left: 104px;
+  animation: welcome-eyes-animation 3s infinite;
   -webkit-animation: welcome-eyes-animation 3s infinite;
 }
 
 .welcome-eyes-right{
-	border-radius:50%; width:5px; height: 8px; background: #333;
-	position: absolute;
-	margin-top: 0px;
-	margin-left: 127px;
-	animation: welcome-eyes-animation 3s 0s infinite;
+  border-radius:50%; width:5px; height: 8px; background: #333;
+  position: absolute;
+  margin-top: 0px;
+  margin-left: 127px;
+  animation: welcome-eyes-animation 3s 0s infinite;
   -webkit-animation: welcome-eyes-animation 3s 0s infinite;
 }
 
@@ -300,9 +311,9 @@ body{
 }
 
 .welcome-mouth{
-	position: absolute;
-	top: 92px;
-	left: 138px;
+  position: absolute;
+  top: 92px;
+  left: 138px;
   background-color: #fff;
   width: 20px;
   height: 5px;
@@ -357,18 +368,18 @@ body{
 /*-----------------------------plane----------------------------------*/
 
 .plane-frame{
-	width: 100%;
+  width: 100%;
   max-width: 1366px;
   margin-right: auto;
   margin-left: auto;
   position: relative;
 }
 .plane{
-	width: 100px;
-	height: 50px;
-	background: url("../images/plane.png");
-	position: absolute;
-	animation-name: plane;
+  width: 100px;
+  height: 50px;
+  background: url("../images/plane.png");
+  position: absolute;
+  animation-name: plane;
   animation-duration: 20s;
   animation-iteration-count: infinite;
   animation-timing-function: linear;
@@ -424,7 +435,7 @@ body{
   0%, 100% {
     background: rgba(254, 248, 97, 0.5);
     box-shadow: 0 0 40px 10px rgba(248, 233, 209, 0.2);
-   	transform: translateY(0) scale(1);
+    transform: translateY(0) scale(1);
   }
   50% {
     background: rgba(255, 50, 0, 0.1);
@@ -436,7 +447,7 @@ body{
   0%, 100% {
     background: rgba(254, 248, 97, 0.5);
     box-shadow: 0 0 40px 10px rgba(248, 233, 209, 0.2);
-   	-webkit-transform: translateY(0) scale(1);
+    -webkit-transform: translateY(0) scale(1);
   }
   50% {
     background: rgba(255, 50, 0, 0.1);
@@ -477,7 +488,7 @@ body{
 /*-----------------------------air balloon----------------------------------*/
 
 .air-balloon-frame{
-	width: 100%;
+  width: 100%;
   max-width: 1366px;
   margin-right: auto;
   margin-left: auto;
@@ -485,12 +496,12 @@ body{
 
 }
 .air-balloon{
-	top: 0px;
-	width: 50px;
-	height: 50px;
-	background: url("../images/air-balloon.png");
-	position: absolute;
-	-webkit-animation-name: air-balloon;
+  top: 0px;
+  width: 50px;
+  height: 50px;
+  background: url("../images/air-balloon.png");
+  position: absolute;
+  -webkit-animation-name: air-balloon;
   -webkit-animation-duration: 100s;
   -webkit-animation-iteration-count: infinite;
   -webkit-animation-timing-function: linear;
@@ -1166,17 +1177,17 @@ body{
 /*--------------------------------fan-----------------------------------*/
 
 .fan-frame{
-	width: 150px;
+  width: 150px;
   height: 150px;
   position: absolute;
   margin-left: 980px;
   margin-top: 150px;
 }
 .fan-top{
-	width: 150px;
-	height: 150px;
-	background: url("../images/fan-top.png");
-	position: absolute;
+  width: 150px;
+  height: 150px;
+  background: url("../images/fan-top.png");
+  position: absolute;
   animation:fan-top 8s infinite;
   transform: rotateY(30deg);
   animation-timing-function: linear;
@@ -1566,9 +1577,9 @@ body{
 
 @media (max-width: 1199px){
 
-	body{
-		overflow-x: hidden;
-	}
+  body{
+    overflow-x: hidden;
+  }
 
   .parlour-body{
     left: 415px;
@@ -1578,17 +1589,17 @@ body{
     left: 130px;
   }
 
-	.galon{
-		left: 900px;
-	}
+  .galon{
+    left: 900px;
+  }
 
   .fan-frame{
     margin-left: 880px;
   }
 
-	.fan-top{
-		margin-left: -100px;
-	}
+  .fan-top{
+    margin-left: -100px;
+  }
 
   .screen_frame{
     margin-left: 315px;
@@ -1610,9 +1621,9 @@ body{
     margin-left: 400px;
   }
 
-	.centerFan{
-		margin-left:-100px;
-	}
+  .centerFan{
+    margin-left:-100px;
+  }
 
   .buttons{
     margin-top: -30px;
@@ -1653,9 +1664,9 @@ body{
   .tale{
     display: none;
   }
-	.fan-top{
-		display: none;
-	}
+  .fan-top{
+    display: none;
+  }
 
   .fan-frame{
     display: none;
@@ -1681,24 +1692,24 @@ body{
     display: none;
   }
 
-	.galon{
-		display: none;
-	}
-	.tree-group1{
-		display: none;
-	}
+  .galon{
+    display: none;
+  }
+  .tree-group1{
+    display: none;
+  }
 
-	.tree-group2{
-		display: none;
-	}
+  .tree-group2{
+    display: none;
+  }
 
-	.car{
-		display: none;
-	}
+  .car{
+    display: none;
+  }
 
-	.car2{
-		display: none;
-	}
+  .car2{
+    display: none;
+  }
   .buttons{
     margin-top: 0px;
   }

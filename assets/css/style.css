@@ -21,12 +21,12 @@
 }
 
 .icon_logo{
-	background:url(../images/logo.png);
-	margin-top:20px;
-	width:171px;
-	height:171px;
-	margin-left:auto;
-	margin-right:auto;
+  background:url(../images/logo.png);
+  margin-top:20px;
+  width:171px;
+  height:171px;
+  margin-left:auto;
+  margin-right:auto;
 }
 
 html {
@@ -52,9 +52,9 @@ html h4,
 body h4,
 html h5,
 body h5 {
-	text-transform:uppercase;
-	font-size:28px;
-	
+  text-transform:uppercase;
+  font-size:28px;
+  
 }
 section {
   
@@ -151,7 +151,7 @@ a:hover {
   color: #666;
 }
 /*.navbar-inverse.scroll-fixed-navbar .navbar-brand {
-	color:#666;
+  color:#666;
   background: url("../../images/logo-dark.png") no-repeat center;
 }*/
 .navbar-inverse.scroll-fixed-navbar .navbar-nav li a {
@@ -163,13 +163,12 @@ a:hover {
 /*       03 - Banner Elements
 /*==========================================*/
 .banner {
-  height: 768px;
+  height: 100%;
   width: 100%;
   position: relative;
   display: table;
   z-index: 1;
-  background:url(../images/home3.png) no-repeat center top;
- 
+  background:url(../images/home3.png) no-repeat center bottom;
 }
 
 @media (max-width: 768px) {
@@ -185,14 +184,48 @@ a:hover {
 .banner .banner-content {
   position: relative;
   z-index: 2;
-  display: table-cell;
-  vertical-align: middle;
-  text-align: center;
-  color: #ffffff;
+  height: 100vh;
   overflow: hidden;
   
  
 }
+.tooltip_frame {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 0);
+  width: 100px;
+}
+
+.tooltip {
+  z-index: 999;
+  width: 2.2em;
+  height: 2.2em;
+  cursor: pointer;
+  opacity: 1;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -62px;
+  position: relative;
+  position: are;
+  position: relative;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 0);
+  width: 30px;
+  height: 30px;
+  bottom: 280px;
+  margin-left: -70px;
+}
+
+.tooltip:first-child {
+  left: 50%;
+  top: unset;
+}
+
+.tooltip-item {
+  margin: -20px 0 0 -30px;
+}
+
 .banner .banner-content .title {
   width: 80%;
   text-align: center;
@@ -323,7 +356,7 @@ a:hover {
 
 .about {
   z-index: 1;
-  background:url(../images/bg-noise.png) #fb9073;
+  background:url(../images/bg-noise.png) #fba993;
   /*background-size: cover;*/
 
   
@@ -368,9 +401,9 @@ a:hover {
   
 }
 .about .content .text .title h4 {
-	color:#666;
-	font-size:22px;
-	  text-align:center;
+  color:#666;
+  font-size:22px;
+    text-align:center;
 }
 .about .content .text .description {
   line-height: 25px;
@@ -378,13 +411,13 @@ a:hover {
 }
 
 .skill_bar{
-	padding:50px 0;
+  padding:50px 0;
   background: #89d1ab;
 }
 .skill_bar .title h1{
-	color:#666;	
-	margin-bottom:30px;
-	 text-shadow: 0pt 1px 1px #ffffff;
+  color:#666; 
+  margin-bottom:30px;
+   text-shadow: 0pt 1px 1px #ffffff;
 }
 
 /*==========================================*/
@@ -479,11 +512,11 @@ a:hover {
   margin: 0 auto;
 }
 .testimonial .carousel .item .img_about{
-	width:120px;
-	height:120px;
-	border-radius:50%;
-	border:5px solid #fff;
-	margin-bottom:1em;
+  width:120px;
+  height:120px;
+  border-radius:50%;
+  border:5px solid #fff;
+  margin-bottom:1em;
 }
 .testimonial .carousel .item .text {
   text-align: center;
@@ -512,7 +545,7 @@ a:hover {
   text-align: center;
 }
 .testimonial .carousel .carousel-control .control-circle:hover {
-	background-color:#fff;
+  background-color:#fff;
 }
 .testimonial .carousel .carousel-control .control-circle.left {
   left: 30%;
@@ -727,9 +760,9 @@ a:hover {
   z-index:2;
 }
 .portfolio .portfoliocontent .content .overlay:hover {
-	background: #67A1C6 !important;
-	opacity:0.8;
-	
+  background: #67A1C6 !important;
+  opacity:0.8;
+  
 }
 .portfolio .portfoliocontent .content .overlay .link {
   position: relative;
@@ -1296,13 +1329,13 @@ a:hover {
 /*==========================================*/
 @media (max-width: 768px) {
   .banner {
-	  
+    
   margin-top:50px;
   height: 500px;
  
 }
 .navbar-inverse_new{
-	display:none;
+  display:none;
 }
 
 .cloud-container{
@@ -1329,9 +1362,9 @@ a:hover {
   /*.navbar-inverse .navbar-brand {
     padding: 10px 20px;
     background: url("../../images/logo-dark.png") no-repeat center;
-	font-size:14px;
+  font-size:14px;
     text-transform:uppercase;
-	color:#666;
+  color:#666;
   }*/
   .navbar-inverse .navbar-collapse {
     border-color: #dddddd;
@@ -1374,8 +1407,8 @@ a:hover {
     margin-right: 5px;
   }
    .testimonial .carousel .item .text {
-	  width:75%;
-	}
+    width:75%;
+  }
 }
 @media (min-width: 768px) and (max-width: 991px) {
   .navbar-inverse .navbar-nav li a {
@@ -1389,8 +1422,8 @@ a:hover {
     padding: 30px 20px;
   }
   .testimonial .carousel .item .text {
-	  width:75%;
-	}
+    width:75%;
+  }
   .cloud-container{
     display:none;
   }
@@ -1407,7 +1440,7 @@ a:hover {
 
 
 .cloud-container{
-	display:none;
+  display:none;
 }
 
 .tooltip-west{
@@ -1415,7 +1448,7 @@ a:hover {
 }
 
 .navbar-inverse_new{
-	display:none;
+  display:none;
 }
   .banner .banner-content .title h1 {
     font-size: 20px;
@@ -1429,50 +1462,50 @@ a:hover {
     margin-top: 20px;
   }
    .testimonial .carousel .item .text {
-	  width:75%;
-	}
+    width:75%;
+  }
 }
 
 .notice{
-	color:#67A1C6;
-	font-weight:bold;
-	text-transform:uppercase;
-	font-size:16px;
-	
+  color:#67A1C6;
+  font-weight:bold;
+  text-transform:uppercase;
+  font-size:16px;
+  
 }
 #about_page{
-	height:60px;
+  height:60px;
 }
 #timeline_page{
-	height:60px;
+  height:60px;
 }
 #update_page{
-	height:60px;
+  height:60px;
 }
 .timeline{
-	padding:50px 0;
+  padding:50px 0;
 }
 .timeline .title h1 {
   margin-top: 0px;
     color:#666;
 }
 .blokir{
-	background:url(../images/cancel.png) no-repeat;
-	z-index:9999;
-	width:256px;
-	height:256px;
-	margin: auto;
+  background:url(../images/cancel.png) no-repeat;
+  z-index:9999;
+  width:256px;
+  height:256px;
+  margin: auto;
     position: absolute;
     top: 0; bottom: 0; left: 0; right: 0;
 }
 .pricing_block{
-	background: url(../images/blokir%20copy.jpg) center;
-	width:100%;
-	height:390px;
+  background: url(../images/blokir%20copy.jpg) center;
+  width:100%;
+  height:390px;
 }
 .bawah_banner{
-	background:#34495E;
-	 height: 20%;
+  background:#34495E;
+   height: 20%;
   width: 100%;
   position: relative;
   display: table;
@@ -1613,12 +1646,12 @@ a:hover {
 }
 
 .timeline_title{
-	font-family: inherit;
+  font-family: inherit;
     font-weight: 500;
     line-height: 1.1;
-	text-transform:uppercase;
-	color:#666;
-	font-size:32px;
+  text-transform:uppercase;
+  color:#666;
+  font-size:32px;
 }
 
 .c-popup {
