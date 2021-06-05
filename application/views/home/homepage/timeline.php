@@ -1,6 +1,6 @@
       	<div class="row">
             <div class="col-md-12 title text-center" data-wow-delay="0.1s">
-               <div class="timeline_title">My <strong>Timeline</strong></div>
+               <div class="timeline_title">Job <strong>Experiences</strong></div>
             </div>
             <div class="col-md-12 title" data-wow-delay="0.1s">
                 <section id="cd-timeline" class="cd-container">
@@ -27,14 +27,16 @@
                     </div>  -->
     
                     <div class="cd-timeline-block">
+                      
                       <div class="cd-timeline-img cd-default">
                         <img src="<?= base_url() ?>assets/images/work.png" alt="Picture">
-                      </div> <!-- cd-timeline-img -->
+                      </div> <!-- cd-timeline-img --> 
                 
                       <div class="cd-timeline-content">
-                        <h2>Work @ Elkabumi Caraka Daya </h2>
-                        <p>I worked at Elkabumi Software House based in Surabaya. 
-                          As a Junior Programmer, I learned a lot of knowledge here. This is my first step to becoming a programmer.
+
+                        <h2>Elkabumi Caraka Daya </h2>
+                        <p>I started working as a junior developer at Elkabumi Software House based in Surabaya.
+                          As a junior developer, I learned a lot of programming language here.
                         </p>
                         
                         <span class="cd-date">Jun 16, 2011</span>
@@ -62,7 +64,7 @@
                       </div> <!-- cd-timeline-img -->
                 
                       <div class="cd-timeline-content">
-                        <h2>Work @ Webtocrat Motion </h2>
+                        <h2>Webtocrat Motion </h2>
                         <p>In 2015, I worked as IT Developer in Webtocrat Motion. 
 Webtocrat Motion is a company engaged in website creation services, focus on technology research and branding strategy for a product
                         </p>
@@ -76,8 +78,8 @@ Webtocrat Motion is a company engaged in website creation services, focus on tec
                       </div> <!-- cd-timeline-img -->
                 
                       <div class="cd-timeline-content">
-                        <h2>Work @ Dragon Capital Center </h2>
-                        <p>This is my first experience joining a startup company. I am working as a front end developer. I create website for "The first Virtual Social Media in the World CIAYO". https://www.ciayo.com/
+                        <h2>Dragon Capital Center </h2>
+                        <p>This is my first experience joining a startup company. Dragon Capital Center create website for "The first Virtual Social Media in the World CIAYO". https://www.ciayo.com/
 
                         </p>
                         <span class="cd-date">Mar 03, 2016</span>
@@ -90,13 +92,27 @@ Webtocrat Motion is a company engaged in website creation services, focus on tec
                       </div> <!-- cd-timeline-img -->
                 
                       <div class="cd-timeline-content">
-                        <h2>Work @ Bukalapak </h2>
-                        <p>Bukalapak is one of the largest online marketplace in Indonesia. This is my first experience to join in the e-commerce company. 
+                        <h2>Bukalapak </h2>
+                        <p>Bukalapak is one of the largest online marketplace in Indonesia. My team focus on daily user and gamification.
 
                         </p>
                         <span class="cd-date">Jan 16, 2017</span>
                       </div> <!-- cd-timeline-content -->
                     </div> <!-- cd-timeline-block -->
+
+                    <div class="cd-timeline-block">
+                     <div class="cd-timeline-img cd-default">
+                        <img src="<?= base_url() ?>assets/images/work.png" alt="Picture">
+                      </div> <!-- cd-timeline-img -->
+                
+                      <div class="cd-timeline-content">
+                        <h2>DDTC </h2>
+                        <p>DDTC is a research, technology, and knowledge-based tax institution that sets the standards and beyond.
+
+                        </p>
+                        <span class="cd-date">Sept 01, 2019</span>
+                      </div> <!-- cd-timeline-content -->
+                    </div> <!-- cd-timeline-block --> 
     
                     <div class="cd-timeline-block" style="margin-bottom:20px;">
                       <div class="cd-timeline-img cd-default">

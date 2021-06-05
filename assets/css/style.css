@@ -80,6 +80,15 @@ a:hover {
 .textbold {
  
 }
+
+.u-pad--30 {
+  padding: 30px;
+}
+
+.u-pad--20 {
+  padding: 20px;
+}
+
 /*==========================================*/
 /*       02 - Navbar Elements
 /*==========================================*/
@@ -1378,6 +1387,7 @@ a:hover {
   .banner .banner-content {
     padding-top: 120px;
     padding-bottom: 80px;
+    height: unset;
   }
   .banner.banner-video .banner-content {
     padding-top: 120px;
@@ -1649,7 +1659,7 @@ a:hover {
   font-family: inherit;
     font-weight: 500;
     line-height: 1.1;
-  text-transform:uppercase;
+  /*text-transform:uppercase;*/
   color:#666;
   font-size:32px;
 }
