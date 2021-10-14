@@ -18,7 +18,7 @@
     <link href="<?= base_url() ?>assets/css/bootstrap.css" rel="stylesheet">
 
     <!-- font-awesome.css -->
-    <link href="<?= base_url() ?>assets/css/font-awesome.css" rel="stylesheet">
+    <!--<link href="<?= base_url() ?>assets/css/font-awesome.css" rel="stylesheet">-->
   
     <!-- timeline -->
     <link rel="stylesheet" href="<?= base_url() ?>assets/css/timeline.css"> 
@@ -27,8 +27,8 @@
     <link href="<?= base_url() ?>assets/css/animate.css" rel="stylesheet">
 
     <!-- Owl Carousel -->
-    <link href="<?= base_url() ?>assets/css/owl.carousel.css" rel="stylesheet">
-    <link href="<?= base_url() ?>assets/css/owl.theme.css" rel="stylesheet">
+    <!--<link href="<?= base_url() ?>assets/css/owl.carousel.css" rel="stylesheet">-->
+    <!--<link href="<?= base_url() ?>assets/css/owl.theme.css" rel="stylesheet">-->
 
     <!-- Fancybox -->
     <link href="<?= base_url() ?>assets/css/jquery.fancybox.css" rel="stylesheet">
@@ -40,7 +40,7 @@
     <link rel="stylesheet" type="text/css" href="<?= base_url() ?>assets/css/portofolio/component.css" />
     
     <!-- link -->
-    <link rel="stylesheet" type="text/css" href="<?= base_url() ?>assets/css/link.min.css" />
+    <!--<link rel="stylesheet" type="text/css" href="<?= base_url() ?>assets/css/link.min.css" />-->
 
     <!-- own animate -->
     <link rel="stylesheet" type="text/css" href="<?= base_url() ?>assets/css/own-animate.css" />
@@ -69,7 +69,7 @@
     <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
 
     <!-- Main CSS -->
-    <link href="<?= base_url() ?>assets/css/style.css?v=2" rel="stylesheet">
+    <link href="<?= base_url() ?>assets/css/style.css?v=7" rel="stylesheet">
 
   
   </head>

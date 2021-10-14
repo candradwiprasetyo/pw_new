@@ -17,7 +17,7 @@
 	</div>
 	
      <div class="c-popup__content">
-          <img src="<?= base_url() ?>assets/images/portfolio_2/sahabat-cipta.jpg" /> 
+          <img src="<?= base_url() ?>assets/images/portfolio_2/sahabat-cipta.jpg?v=2" /> 
 	</div>
 	<div class="c-popup__description">
     <div class="row">

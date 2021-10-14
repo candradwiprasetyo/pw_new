@@ -12,7 +12,9 @@
     </script>
 <!-- banner section BEGIN -->
 
-<div class="navbar-inverse_new"></div>
+<div class="cloud-background"></div>
+<!--<div class="navbar-inverse_new"></div>-->
+<div class="sun-background"></div> 
 
     <section class="banner" id="home">
 

@@ -49,9 +49,6 @@ Modules - reusable parts of our design
   position: relative;
   margin: 2em 0;
 }
-.cd-timeline-block img {
-  width: 100%;
-}
 .cd-timeline-block:after {
   content: "";
   display: table;

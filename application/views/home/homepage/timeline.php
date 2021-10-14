@@ -35,8 +35,8 @@
                       <div class="cd-timeline-content">
 
                         <h2>Elkabumi Caraka Daya </h2>
-                        <p>I started working as a junior developer at Elkabumi Software House based in Surabaya.
-                          As a junior developer, I learned a lot of programming language here.
+                        <p>I started my career as a junior web developer at Elkabumi Software House based in Surabaya.
+                          I learned many programming languages ​​and frameworks such as codeigniter, laravel, and angular
                         </p>
                         
                         <span class="cd-date">Jun 16, 2011</span>
@@ -65,8 +65,7 @@
                 
                       <div class="cd-timeline-content">
                         <h2>Webtocrat Motion </h2>
-                        <p>In 2015, I worked as IT Developer in Webtocrat Motion. 
-Webtocrat Motion is a company engaged in website creation services, focus on technology research and branding strategy for a product
+                        <p> Webtocrat Motion is a company engaged in website creation services, focus on technology research and branding strategy for a product
                         </p>
                         <span class="cd-date">Jun 01, 2015</span>
                       </div> <!-- cd-timeline-content -->

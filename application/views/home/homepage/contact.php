@@ -57,8 +57,8 @@ candradwiprasetyo@gmail.com
             <ul class="icons">
 					
 					<li><a target="_blank" href="https://web.facebook.com/candradwprasetyo" class="icon circle fa-facebook"><span class="label">Facebook</span></a></li>
-					<li><a target="_blank" href="https://plus.google.com/u/0/109776926653599939952" class="icon circle fa-google-plus"><span class="label">Google+</span></a></li>
-					<li><a target="_blank" href="https://id.linkedin.com/in/candra-dwi-prasetyo-69688b118" class="icon circle fa-github"><span class="label">Github</span></a></li>
+					<li><a target="_blank" href="https://github.com/candradwiprasetyo" class="icon circle fa-github"><span class="label">Github</span></a></li>
+					<li><a target="_blank" href="https://id.linkedin.com/in/candra-dwi-prasetyo" class="icon circle fa-linkedin"><span class="label">Github</span></a></li>
 				</ul>
             </div>
           </div><!--/.footer-form -->

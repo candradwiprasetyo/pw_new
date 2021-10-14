@@ -17,8 +17,8 @@
 	</div>
 	
      <div class="c-popup__content">
-          <img src="<?= base_url() ?>assets/images/portfolio_2/rocket-shake-2.jpg" /> 
-          <img src="<?= base_url() ?>assets/images/portfolio_2/rocket-shake-3.jpg" />
+          <img src="<?= base_url() ?>assets/images/portfolio_2/rocket-shake-2.jpg?v=2" /> 
+          <!-- <img src="<?= base_url() ?>assets/images/portfolio_2/rocket-shake-3.jpg?v=2" /> -->
 	</div>
 	<div class="c-popup__description">
     <div class="row">

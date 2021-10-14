@@ -44,7 +44,8 @@
 								'Haveel',
 								'Sahabat Cipta',
 								'Rocket Shake',
-								'BukaNonton'
+								'BukaNonton',
+								'Pregnancy Partner'
 								);
 					$ket_por = array(
 								'',
@@ -61,7 +62,8 @@
 								'Website',
 								'Website',
 								'Game Mobile Web',
-								'Web Mobile'
+								'Web Mobile',
+								'Website'
 								);
 					$filter_por = array(
 								'',
@@ -78,7 +80,8 @@
 								'website',
 								'website',
 								'webapp',
-								'webapp'
+								'webapp',
+								'website'
 								);
 
 					$date_por = array(
@@ -90,15 +93,17 @@
 								'',
 								'',
 								'16 Nov 2013',
-								'2 Jun 2014',
+								'2 Jun 2018',
 								'25 Oct 2017',
 								'21 Feb 2013',
 								'3 Jun 2014',
 								'1 Mar 2017',
 								'1 August 2019',
-								'5 Apr 2019'
+								'5 Apr 2019',
+								'20 Sept 2020'
 								);
-                for($i=14;$i>6;$i--){
+				$jml_por = count($date_por) - 1;
+                for($i=$jml_por;$i>6;$i--){
 					
 				?>
               	
@@ -150,13 +155,14 @@
             <?php $this->load->view('home/homepage/portfolio/12'); ?>
             <?php $this->load->view('home/homepage/portfolio/13'); ?>
             <?php $this->load->view('home/homepage/portfolio/14'); ?>
+            <?php $this->load->view('home/homepage/portfolio/15'); ?>
 
             <div style="clear:both;"></div>
 
 
  <script type="text/javascript">
  	<?php
-	for($j=14;$j>6;$j--){
+	for($j=$jml_por;$j>6;$j--){
 	?>
  	$("#js_portfolio_<?= $j ?>").on('click', function() {
  		

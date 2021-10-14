@@ -17,7 +17,7 @@
 	</div>
 	
      <div class="c-popup__content">
-          <img src="<?= base_url() ?>assets/images/portfolio_2/buka-nonton.jpg" /> 
+          <img src="<?= base_url() ?>assets/images/portfolio_2/buka-nonton.jpg?v=2" /> 
 	</div>
 	<div class="c-popup__description">
     <div class="row">

@@ -387,6 +387,7 @@ body{
   -webkit-animation-duration: 20s;
   -webkit-animation-iteration-count: infinite;
   -webkit-animation-timing-function: linear;
+  z-index: 2;
 }
 
 .smoke {
@@ -459,14 +460,14 @@ body{
     0%   {left: -200px; top:0px;  transform: rotate(45deg);}
     25% {left:150px; top:100px;  transform: rotate(0deg);}
     90% {left:1000px; top: 100px;  transform: rotate(0deg);}
-    100% {left: 1200px; top:0px;  transform: rotate(-45deg);}
+    100% {left: 1200px; top:-50px;  transform: rotate(-45deg);}
 }
 
 @-webkit-keyframes plane {
     0%   {left: -200px; top:0px;  -webkit-transform: rotate(45deg);}
     25% {left:150px; top:100px;  -webkit-transform: rotate(0deg);}
     90% {left:1000px; top: 100px;  -webkit-transform: rotate(0deg);}
-    100% {left: 1200px; top:0px;  -webkit-transform: rotate(-45deg);}
+    100% {left: 1200px; top:-50px;  -webkit-transform: rotate(-45deg);}
 }
 
 @keyframes smoke {
@@ -509,6 +510,7 @@ body{
   animation-duration: 100s;
   animation-iteration-count: infinite;
   animation-timing-function: linear;
+  z-index: 2;
 }
 
 @-webkit-keyframes air-balloon {
@@ -516,7 +518,7 @@ body{
     25% {left:175px; top:120px; }
     50% {left:550px; top: 80px; }
     75% {left:925px; top: 120px; }
-    100% {left: 1300px; top:0px; }
+    100% {left: 1300px; top:-50px; }
 }
 
 @keyframes air-balloon {
@@ -524,8 +526,10 @@ body{
     25% {left:175px; top:120px; }
     50% {left:550px; top: 80px; }
     75% {left:925px; top: 120px; }
-    100% {left: 1300px; top:0px; }
+    100% {left: 1300px; top:-50px; }
 }
+
+
 
 /*-----------------------------tale of cat----------------------------------*/
 
@@ -1643,9 +1647,9 @@ body{
   .shower-frame{
     margin-left: -30px;
   }
-}
+/*}*/
 
-@media (max-width: 991px){
+/*@media (max-width: 991px){*/
   .plane{
     display: none;
   }
