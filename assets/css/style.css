@@ -1,5 +1,24 @@
 /* CSS Document */
 
+:root, [data-theme="default"] {
+  --bg-cloud: url(../images/cloud-background.png) no-repeat;
+  --opacity-sun: 1;
+  --text-navbar: #666;
+  --bg-cloud-small: url(../images/cloud-small.png) no-repeat;
+  --display-star: none;
+  --bg-home: url(../images/home4.png) no-repeat center bottom;
+}
+
+@supports (--css: variables) {
+  [data-theme="dark"] {
+    --bg-cloud: #2d4360;
+    --opacity-sun: .3;
+    --text-navbar: #fff;
+    --bg-cloud-small: url(../images/cloud-small-dark.png) no-repeat;
+    --display-star: block;
+    --bg-home: url(../images/home5.png) no-repeat center bottom;
+  }
+}
 
 @font-face {
   font-family: 'Open Sans';
@@ -107,7 +126,7 @@ a:hover {
   border:0px;
 }
 .navbar-inverse .navbar-brand {
-  color: #666;
+  color: var(--text-navbar);
   padding: 0px;
   padding-top:10px;
   height: 40px;
@@ -116,7 +135,7 @@ a:hover {
   text-transform:uppercase;
 }
 .navbar-inverse .navbar-nav li a {
-  color: #666 !important;
+  color: var(--text-navbar);
   font-size: 14px;
   text-transform: capitalize;
   padding: 30px 20px;
@@ -126,11 +145,11 @@ a:hover {
 }
 .navbar-inverse .navbar-nav li:hover a {
   background-color: transparent;
-  color: #666;
+  color: var(--text-navbar);
 }
 .navbar-inverse .navbar-nav li.active a {
   background-color: transparent;
-  color: #666 !important;
+  color: var(--text-navbar);
   font-weight: bold;
 }
 .navbar-inverse .navbar-nav li.active a:hover {
@@ -140,7 +159,7 @@ a:hover {
 .navbar-inverse .navbar-nav li.active a:focus,
 .navbar-inverse .navbar-nav li.active a:hover {
   background: none;
-  color: #666 !important;
+  color: var(--text-navbar);
 }
 .navbar-inverse.scroll-fixed-navbar {
   background: #ffffff;
@@ -156,7 +175,10 @@ a:hover {
 .navbar-inverse.scroll-fixed-navbar .navbar-nav li a {
   color: #999;
   padding: 30px 20px;
- 
+}
+
+.navbar-inverse.scroll-fixed-navbar .navbar-header .navbar-brand {
+  color: #999;
 }
 /*==========================================*/
 /*       03 - Banner Elements
@@ -167,7 +189,7 @@ a:hover {
   position: relative;
   display: table;
   z-index: 1;
-  background:url(../images/home3.png) no-repeat center bottom;
+  background: var(--bg-home);
 }
 
 @media (max-width: 768px) {
@@ -1522,15 +1544,14 @@ a:hover {
 }
 
 .cloud {
-  width: 160px;
-    height: 50px;
-    margin-left: 0;
-    display: block;
-    position: absolute;
-    z-index: 2;
-    background: url(../images/cloud-small.png) no-repeat;
-    background-size: cover;
-  
+  width: 180px;
+  height: 50px;
+  margin-left: 0;
+  display: block;
+  position: absolute;
+  z-index: 2;
+  background: var(--bg-cloud-small);
+  background-size: cover;
 }
 
 /*.cloud:before {*/
@@ -1739,7 +1760,7 @@ a:hover {
   top: 0;
   left: 0;
   right: 0;
-  background: url(../images/cloud-background.png) no-repeat;
+  background: var(--bg-cloud);
   background-size: 100%;
   z-index: 1;
 }
@@ -1758,7 +1779,253 @@ a:hover {
   background: url(../images/sun-background.png) no-repeat;
   background-size: cover;
   z-index: 1;
+  opacity: var(--opacity-sun);
 }
+
+.container {
+  position: relative;
+}
+
+/*---------- toggle --------*/
+
+.toggleWrapper {
+  /*position: absolute;*/
+  overflow: hidden;
+  margin-top: 26px;
+  margin-left: 20px;
+  right: 0;
+}
+.toggleWrapper input {
+  position: absolute;
+  left: -99em;
+  display: none;
+}
+
+.toggle {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  width: 70px;
+  height: 30px;
+  background-color: #83D8FF;
+  border-radius: 84px;
+  transition: background-color 200ms cubic-bezier(0.445, 0.05, 0.55, 0.95);
+}
+
+.toggle__handler {
+  display: inline-block;
+  position: relative;
+  z-index: 1;
+  top: 3px;
+  left: 3px;
+  width: 24px;
+  height: 24px;
+  background-color: #FFCF96;
+  border-radius: 50px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+  transition: all 400ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  transform: rotate(-45deg);
+}
+.toggle__handler .crater {
+  position: absolute;
+  background-color: #E8CDA5;
+  opacity: 0;
+  transition: opacity 200ms ease-in-out;
+  border-radius: 100%;
+}
+.toggle__handler .crater--1 {
+  top: 12px;
+  left: 5px;
+  width: 4px;
+  height: 4px;
+}
+.toggle__handler .crater--2 {
+  top: 17px;
+  left: 12px;
+  width: 4px;
+  height: 4px;
+}
+.toggle__handler .crater--3 {
+  top: 6px;
+  left: 13px;
+  width: 6px;
+  height: 6px;
+}
+
+.star {
+  position: absolute;
+  background-color: #ffffff;
+  transition: all 300ms cubic-bezier(0.445, 0.05, 0.55, 0.95);
+  border-radius: 50%;
+}
+
+.star--1 {
+  top: 5px;
+  left: 35px;
+  z-index: 0;
+  width: 20px;
+  height: 3px;
+}
+
+.star--2 {
+  top: 13px;
+  left: 28px;
+  z-index: 1;
+  width: 20px;
+  height: 3px;
+}
+
+.star--3 {
+  top: 22px;
+  left: 40px;
+  z-index: 0;
+  width: 20px;
+  height: 3px;
+}
+
+.star--4,
+.star--5,
+.star--6 {
+  opacity: 0;
+  transition: all 300ms 0 cubic-bezier(0.445, 0.05, 0.55, 0.95);
+}
+
+.star--4 {
+  top: 10px;
+  left: 11px;
+  z-index: 0;
+  width: 2px;
+  height: 2px;
+  transform: translate3d(3px, 0, 0);
+}
+
+.star--5 {
+  top: 20px;
+  left: 17px;
+  z-index: 0;
+  width: 3px;
+  height: 3px;
+  transform: translate3d(3px, 0, 0);
+}
+
+.star--6 {
+  top: 25px;
+  left: 28px;
+  z-index: 0;
+  width: 2px;
+  height: 2px;
+  transform: translate3d(3px, 0, 0);
+}
+
+input:checked + .toggle {
+  background-color: #45648f;
+}
+input:checked + .toggle:before {
+  color: #749ED7;
+}
+input:checked + .toggle:after {
+  color: #ffffff;
+}
+input:checked + .toggle .toggle__handler {
+  background-color: #FFE5B5;
+  transform: translate3d(39px, 0, 0) rotate(0);
+}
+input:checked + .toggle .toggle__handler .crater {
+  opacity: 1;
+}
+input:checked + .toggle .star--1 {
+  width: 2px;
+  height: 2px;
+}
+input:checked + .toggle .star--2 {
+  width: 4px;
+  height: 4px;
+  transform: translate3d(-5px, 0, 0);
+}
+input:checked + .toggle .star--3 {
+  width: 2px;
+  height: 2px;
+  transform: translate3d(-7px, 0, 0);
+}
+input:checked + .toggle .star--4,
+input:checked + .toggle .star--5,
+input:checked + .toggle .star--6 {
+  opacity: 1;
+  transform: translate3d(0, 0, 0);
+}
+input:checked + .toggle .star--4 {
+  transition: all 300ms 200ms cubic-bezier(0.445, 0.05, 0.55, 0.95);
+}
+input:checked + .toggle .star--5 {
+  transition: all 300ms 300ms cubic-bezier(0.445, 0.05, 0.55, 0.95);
+}
+input:checked + .toggle .star--6 {
+  transition: all 300ms 400ms cubic-bezier(0.445, 0.05, 0.55, 0.95);
+}
+
+
+/*---------------- star ----------------*/
+
+@keyframes move-twink-back {
+    from {background-position:0 0;}
+    to {background-position:-10000px 5000px;}
+}
+@-webkit-keyframes move-twink-back {
+    from {background-position:0 0;}
+    to {background-position:-10000px 5000px;}
+}
+@-moz-keyframes move-twink-back {
+    from {background-position:0 0;}
+    to {background-position:-10000px 5000px;}
+}
+@-ms-keyframes move-twink-back {
+    from {background-position:0 0;}
+    to {background-position:-10000px 5000px;}
+}
+
+@keyframes move-clouds-back {
+    from {background-position:0 0;}
+    to {background-position:10000px 0;}
+}
+@-webkit-keyframes move-clouds-back {
+    from {background-position:0 0;}
+    to {background-position:10000px 0;}
+}
+@-moz-keyframes move-clouds-back {
+    from {background-position:0 0;}
+    to {background-position:10000px 0;}
+}
+@-ms-keyframes move-clouds-back {
+    from {background-position: 0;}
+    to {background-position:10000px 0;}
+}
+
+.stars, .twinkling {
+  position:absolute;
+  top:0;
+  left:0;
+  right:0;
+  width:100%;
+  bottom: 600px;
+  display: var(--display-star);
+}
+
+.stars {
+  background:#2d4360 url(../images/stars.png) repeat top center;
+  z-index:0;
+}
+
+.twinkling{
+  background:transparent url(../images/twinkling.png) repeat top center;
+  z-index:1;
+
+  -moz-animation:move-twink-back 200s linear infinite;
+  -ms-animation:move-twink-back 200s linear infinite;
+  -o-animation:move-twink-back 200s linear infinite;
+  -webkit-animation:move-twink-back 200s linear infinite;
+  animation:move-twink-back 200s linear infinite;
+}
+
 
 @media only screen and (max-width: 991px) {
   .fancybox-button {

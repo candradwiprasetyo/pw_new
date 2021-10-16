@@ -1,3 +1,15 @@
+:root, [data-theme="default"] {
+  --opacity-ballon: 1;
+  --opacity-plane: 1;
+}
+
+@supports (--css: variables) {
+  [data-theme="dark"] {
+    --opacity-ballon: .5;
+    --opacity-plane: .5;
+  }
+}
+
 body{
   overflow-x:hidden;
 }
@@ -388,6 +400,7 @@ body{
   -webkit-animation-iteration-count: infinite;
   -webkit-animation-timing-function: linear;
   z-index: 2;
+  opacity: var(--opacity-plane);
 }
 
 .smoke {
@@ -511,6 +524,7 @@ body{
   animation-iteration-count: infinite;
   animation-timing-function: linear;
   z-index: 2;
+  opacity: var(--opacity-ballon);
 }
 
 @-webkit-keyframes air-balloon {

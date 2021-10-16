@@ -13,6 +13,7 @@
     <script  src="<?= base_url() ?>assets/js/wow.min.js"></script>
     <script  src="<?= base_url() ?>assets/js/masonry.pkgd.min.js"></script>
     <script  src="<?= base_url() ?>assets/js/isotope.pkgd.min.js"></script>
+    <script src="<?= base_url() ?>assets/js/switch.js"></script>
     
     <!--  skill bar  -->
     <script  src="<?= base_url() ?>assets/js/skill-bar.js"></script>

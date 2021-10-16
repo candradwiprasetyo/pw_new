@@ -74,4 +74,4 @@
   
   </head>
 
-  <body data-spy="scroll" data-target=".navbar-collapse" data-offset="80" class="slideshowbody">
+  <body data-spy="scroll" data-target=".navbar-collapse" data-offset="80" class="slideshowbody" <?php if($this->session->userdata('pw_dark_mode')) { echo 'data-theme="dark"'; } ?>>

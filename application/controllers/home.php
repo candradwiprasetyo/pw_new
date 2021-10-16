@@ -6,7 +6,7 @@ class Home extends CI_Controller {
 		parent::__construct();
 // 		$this->load->model('Home_model');
 		//$this->load->library('access');
-		//$this->load->library('session');
+		$this->load->library('session');
 		//$this->load->helper('url');
 		//$this->load->library('recaptcha');
 		
@@ -26,5 +26,13 @@ class Home extends CI_Controller {
  	public function portfolio($id) {
 		$this->load->view('home/homepage/portfolio/'.$id);
  	}
+
+ 	function dark_mode($type) {
+        if ($type == 1) {
+            $this->session->set_userdata('pw_dark_mode', $type);
+        } else {
+            unset($_SESSION['pw_dark_mode']);
+        }
+    }
 	
 }

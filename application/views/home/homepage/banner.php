@@ -12,7 +12,10 @@
     </script>
 <!-- banner section BEGIN -->
 
-<div class="cloud-background"></div>
+<div class="cloud-background">
+  <div class="stars"></div>
+  <div class="twinkling"></div>
+</div>
 <!--<div class="navbar-inverse_new"></div>-->
 <div class="sun-background"></div> 
 
@@ -85,7 +88,7 @@
                 <div class="welcome-eyebrow-left"></div>
                 <div class="welcome-eyebrow-right"></div>
               <div class="face_inhouse"></div>
-              Welcome to my house :) <br> <button id="click" class="button_inhouse">Come In</button></span>
+              Hi, Welcome to my house <br> <button id="click" class="button_inhouse">Come In</button></span>
           </div>
         </div>
         
