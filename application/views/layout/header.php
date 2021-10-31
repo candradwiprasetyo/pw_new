@@ -69,9 +69,9 @@
     <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
 
     <!-- Main CSS -->
-    <link href="<?= base_url() ?>assets/css/style.css?v=7" rel="stylesheet">
+    <link href="<?= base_url() ?>assets/css/style.css?v=9" rel="stylesheet">
 
   
   </head>
 
-  <body data-spy="scroll" data-target=".navbar-collapse" data-offset="80" class="slideshowbody" <?php if($this->session->userdata('pw_dark_mode')) { echo 'data-theme="dark"'; } ?>>
+  <body data-spy="scroll" data-target=".navbar-collapse" data-offset="80" class="slideshowbody">

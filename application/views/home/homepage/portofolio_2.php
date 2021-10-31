@@ -1,7 +1,7 @@
 
  <section class="portfolio" id="portfolio">
  	 <div class="background_portfolio">
-      <div class="title text-center wow animated fadeInUp"><h1>My Latest <strong>Work</strong></h1></div>
+      <div class="title text-center wow animated fadeInUp"><h1>My Latest <strong>Projects</strong></h1></div>
       
       <div class="title text-center wow animated fadeInUp">
       <div class="container">
@@ -45,7 +45,10 @@
 								'Sahabat Cipta',
 								'Rocket Shake',
 								'BukaNonton',
-								'Pregnancy Partner'
+								'Pregnancy Partner',
+								'Bukalapak Career',
+								'Occhio',
+								'Rasikh Morani',
 								);
 					$ket_por = array(
 								'',
@@ -63,6 +66,9 @@
 								'Website',
 								'Game Mobile Web',
 								'Web Mobile',
+								'Website',
+								'Website',
+								'Website',
 								'Website'
 								);
 					$filter_por = array(
@@ -81,6 +87,9 @@
 								'website',
 								'webapp',
 								'webapp',
+								'website',
+								'website',
+								'website',
 								'website'
 								);
 
@@ -100,11 +109,14 @@
 								'1 Mar 2017',
 								'1 August 2019',
 								'5 Apr 2019',
-								'20 Sept 2020'
+								'20 Sept 2020',
+								'',
+								'',
+								''
 								);
 				$jml_por = count($date_por) - 1;
                 for($i=$jml_por;$i>6;$i--){
-					
+					if ($i!=8) {
 				?>
               	
 				<figure class="effect-milo <?php echo $filter_por[$i]; ?>">
@@ -127,7 +139,7 @@
                         	?></div>
                        
 						</div>
-                        <span class="figure_date"><?= $date_por[$i] ?></span>
+                        <!--<span class="figure_date"><?= $date_por[$i] ?></span>-->
 						<p class="portofolio_icon">
                    
                         </p>
@@ -139,6 +151,7 @@
 
 				</figure>           
                 <?php
+					}
 				}
 			   ?>
 			</div>
@@ -156,6 +169,9 @@
             <?php $this->load->view('home/homepage/portfolio/13'); ?>
             <?php $this->load->view('home/homepage/portfolio/14'); ?>
             <?php $this->load->view('home/homepage/portfolio/15'); ?>
+            <?php $this->load->view('home/homepage/portfolio/16'); ?>
+            <?php $this->load->view('home/homepage/portfolio/17'); ?>
+            <?php $this->load->view('home/homepage/portfolio/18'); ?>
 
             <div style="clear:both;"></div>
 
