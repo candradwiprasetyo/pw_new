@@ -25,7 +25,8 @@
         <div class="c-popup__description__summary">
           <div class="c-popup__description__title">What's?</div>
           <div>
-           A lot of people specially for millenials wants to working on bukalapak, and they have career site. You can check online in here https://careers.bukalapak.com
+            Bukalapak is one of Indonesia's e-commerce unicorns launched in 2010. Their mission includes empowering individuals and businesses, particularly SMEs, with the idea that everyone can be an entrepreneur through their platform.
+           <br><br>A lot of people specially for millenials wants to working on bukalapak, and they have career site. You can check online in here https://careers.bukalapak.com
           </div>
         </div>
       </div>

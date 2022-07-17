@@ -49,6 +49,7 @@
 								'Bukalapak Career',
 								'Occhio',
 								'Rasikh Morani',
+								'Payfluent'
 								);
 					$ket_por = array(
 								'',
@@ -66,6 +67,7 @@
 								'Website',
 								'Game Mobile Web',
 								'Web Mobile',
+								'Website',
 								'Website',
 								'Website',
 								'Website',
@@ -90,6 +92,7 @@
 								'website',
 								'website',
 								'website',
+								'website',
 								'website'
 								);
 
@@ -110,6 +113,7 @@
 								'1 August 2019',
 								'5 Apr 2019',
 								'20 Sept 2020',
+								'',
 								'',
 								'',
 								''
@@ -172,6 +176,7 @@
             <?php $this->load->view('home/homepage/portfolio/16'); ?>
             <?php $this->load->view('home/homepage/portfolio/17'); ?>
             <?php $this->load->view('home/homepage/portfolio/18'); ?>
+            <?php $this->load->view('home/homepage/portfolio/19'); ?>
 
             <div style="clear:both;"></div>
 
