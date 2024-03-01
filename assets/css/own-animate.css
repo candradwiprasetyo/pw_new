@@ -99,15 +99,15 @@ body{
 }
 
 .svg-tree4{
-  position: relative;
-  left: 100px;
-  top: -125px;
+  position: absolute;
+  right: -62px;
+  top: 15px;
 }
 
 .svg-tree5{
-  position: relative;
-  left: 0px;
-  top: -125px;
+  position: absolute;
+  right: -190px;
+  top: 125px;
 }
 
 .svg-tree6{
@@ -124,14 +124,14 @@ body{
 
 .tree-group1{
   position: absolute;
-  width: 100%;
+  width: 80%;
   bottom: 0;
   left: 0;
   right: 0;
-  height: 500px;
-  max-width: 1366px;
+  height: 450px;
+  max-width: 1100px;
   left: 50%;
-  transform: translate(-50%, 0);
+  transform: translate(-50%, 0) scale(0.8);
 }
 
 .tree-group2{
