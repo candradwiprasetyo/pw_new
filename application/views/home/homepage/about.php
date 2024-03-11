@@ -41,7 +41,7 @@
            <br />
             <br />
            <span style="color:#fff;">
-          <span style="font-size:24px;" >Hi, My Name is <b>Candra Dwi Prasetyo</b></span><br><br><p>I'm FRONT END DEVELOPER
+          <span class="c-title">Hi, My Name is <b>Candra Dwi Prasetyo</b></span><br><br><p>I'm FRONT END DEVELOPER
 					based in Surabaya, East Java, Indonesia.
 					My expertise is web design, web programming and web application. I've designed websites for small businesses, company profile, personal website, more.
            </p>

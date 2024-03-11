@@ -21,7 +21,7 @@
 
         <div class="col-md-12">
         <div class="col-md-5 col-md-offset-1">
-          <div class="footer-form" style="padding-top:40px;">
+          <div class="footer-form">
            <form action="" enctype="multipart/form-data" method="POST" name="form_contact"  onsubmit="return submit_contact()" id="form_contact">
               <div class="col-md-12 wow animated fadeInUp" data-wow-delay="0.2s">
                 <input type="text" class="form-control" placeholder="Name" name="i_name">
@@ -45,11 +45,11 @@
             <div class="title text-center wow animated fadeInUp"><h1 style="margin-top:0px;">The Direct  <strong>Way</strong></h1></div> 
             <div class="description wow animated fadeInUp" style="margin-bottom:-20px;">
           <p>
-           Candra Dwi Prasetyo <br/>
-<!-- Gayungsari Timur X No 1 <br/> -->
-Surabaya, East Java, Indonesia <br/>
-(0858) 5777 7414 <br/>
-candradwiprasetyo@gmail.com 
+            Candra Dwi Prasetyo <br/>
+            <!-- Gayungsari Timur X No 1 <br/> -->
+            Surabaya, East Java, Indonesia <br/>
+            (0858) 5777 7414 <br/>
+            candradwiprasetyo@gmail.com 
           </p>
           
         </div>

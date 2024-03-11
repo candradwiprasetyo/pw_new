@@ -1225,7 +1225,7 @@ a:hover {
     background: none;
     min-height:100%;
     height: 100%;
-    padding-bottom: 40px;
+    padding-bottom: 10px;
   }
 
   .portfolio .background_portfolio{
@@ -1252,6 +1252,10 @@ a:hover {
 .contact .form-title h3 {
   margin-top: 0px;
   margin-bottom: 20px;
+}
+
+.contact .footer-form {
+  padding-top: 40px;
 }
 .contact .footer-form .input-container {
   padding-left: 0px;
@@ -2034,8 +2038,14 @@ input:checked + .toggle .star--6 {
   animation:move-twink-back 200s linear infinite;
 }
 
+.c-title {
+  font-size: 24px;
+}
 
 @media only screen and (max-width: 991px) {
+  .c-title {
+    font-size: 18px;
+  }
   .fancybox-button {
     display: inline;
   }
@@ -2052,6 +2062,41 @@ input:checked + .toggle .star--6 {
     margin-top: -2px;
   }
 
+  .def-btn {
+    padding: 8px 20px;
+  }
+
+  .service .title h4 {
+    font-size: 18px;
+  }
+
+  .item_frame {
+    padding-bottom: 20px;
+  }
+  .portfolio .title h1 {
+    font-size: 18px;
+  }
+
+  .pricing .title h1 {
+    font-size: 20px;
+  }
+
+  .pricing .pricing-table .header h3 {
+    font-size: 20px;
+  }
+
+  .portfolio .portfoliocontent {
+    width: 80%;
+    margin-top: 10px;
+  }
+
+  .grid figure {
+    margin-bottom: 20px;
+  }
+
+  .contact .footer-form {
+    padding-top: 0px;
+  }
 }
 
 .grass-animation-frame {

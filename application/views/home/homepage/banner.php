@@ -91,9 +91,6 @@
               Hi, Welcome to my house <br> <button id="click" class="button_inhouse">Come In</button></span>
           </div>
         </div>
-        <?php include 'grass.php'; ?>
-        
-
       </div><!-- /.banner-content -->
 
 
