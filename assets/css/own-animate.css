@@ -1,12 +1,14 @@
 :root, [data-theme="default"] {
   --opacity-ballon: 1;
   --opacity-plane: 1;
+  --opacity-witch: 0;
 }
 
 @supports (--css: variables) {
   [data-theme="dark"] {
     --opacity-ballon: .5;
     --opacity-plane: .5;
+    --opacity-witch: .35;
   }
 }
 
@@ -525,6 +527,51 @@ body{
   animation-timing-function: linear;
   z-index: 2;
   opacity: var(--opacity-ballon);
+}
+
+@-webkit-keyframes air-balloon {
+    0%   {left: -200px; top:0px; }
+    25% {left:175px; top:120px; }
+    50% {left:550px; top: 80px; }
+    75% {left:925px; top: 120px; }
+    100% {left: 1300px; top:-50px; }
+}
+
+@keyframes air-balloon {
+    0%   {left: -200px; top:0px; }
+    25% {left:175px; top:120px; }
+    50% {left:550px; top: 80px; }
+    75% {left:925px; top: 120px; }
+    100% {left: 1300px; top:-50px; }
+}
+
+/*-----------------------------the witch----------------------------------*/
+
+.witch-frame{
+  width: 100%;
+  max-width: 1366px;
+  margin-right: auto;
+  margin-left: auto;
+  position: relative;
+
+}
+.witch{
+  top: 0px;
+  width: 3%;
+  height: 30px;
+  background: url("../images/witch.png");
+  background-size: cover;
+  position: absolute;
+  -webkit-animation-name: air-balloon;
+  -webkit-animation-duration: 50s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+  animation-name: air-balloon;
+  animation-duration: 50s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  z-index: 2;
+  opacity: var(--opacity-witch);
 }
 
 @-webkit-keyframes air-balloon {

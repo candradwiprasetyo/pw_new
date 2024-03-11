@@ -3,7 +3,7 @@
   <div class="background_service">
     <div class="container">
       <div class="row">
-        <div class="col-md-12 text wow animated fadeInLeft" >
+        <div class="text wow animated fadeInLeft text-center col-md-8 col-md-offset-2">
           <div class="item_frame">
             <section>
               <div class="text">

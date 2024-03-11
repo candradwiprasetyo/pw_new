@@ -11,7 +11,7 @@
         </div>
       </div>
       <div class="col-md-4 c-popup__head__close">
-        <!--<a href="https://pregnancy-partner.com/" target="_blank" class="def-btn close_button" style="text-decoration: none; color: #fff;"><strong>Take a look</strong></a>-->
+        <a href="https://www.rasikh.io/" target="_blank" class="def-btn close_button" style="text-decoration: none; color: #fff;"><strong>Take a look</strong></a>
       </div>
     </div>
 	</div>

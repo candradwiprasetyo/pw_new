@@ -6,7 +6,9 @@
   --text-navbar: #666;
   --bg-cloud-small: url(../images/cloud-small.png) no-repeat;
   --display-star: none;
-  --bg-home: url(../images/home4.png) no-repeat center bottom;
+  --bg-home: url(../images/home6.png) no-repeat center bottom;
+  --bg-about: #7BBBA1;
+  --bg-parlour: url(../images/parlour.png) no-repeat top;
 }
 
 @supports (--css: variables) {
@@ -16,7 +18,9 @@
     --text-navbar: #fff;
     --bg-cloud-small: url(../images/cloud-small-dark.png) no-repeat;
     --display-star: block;
-    --bg-home: url(../images/home5.png) no-repeat center bottom;
+    --bg-home: url(../images/home7.png) no-repeat center bottom;
+    --bg-about: #5B8A77;
+    --bg-parlour: url(../images/parlour-night.png) no-repeat top;
   }
 }
 
@@ -373,8 +377,10 @@ a:hover {
 
 .about {
   z-index: 1;
-  background:url(../images/bg-noise.png) #fba993;
+  /* background:url(../images/bg-noise.png) #fba993; */
+  background: var(--bg-about);
   /*background-size: cover;*/
+  padding-top: 30px;
 
   
 }
@@ -385,10 +391,8 @@ a:hover {
   position: relative;
   display: table;
   z-index: 1;
-  background:url(../images/parlour.png) no-repeat top;
-  
+  background: var(--bg-parlour);
 }
-
 
 .about .title h1 {
   margin-top: 0px;
@@ -397,7 +401,7 @@ a:hover {
 }
 .about .title p {
   margin-top: 0px;
-  margin-bottom: 30px;
+  margin-bottom: 15px;
  
   line-height:24px;
 }
@@ -446,12 +450,13 @@ a:hover {
   /*min-height: 600px;*/
   width: 100%;
   padding-top:50px;
-  background:url(../images/bg-noise.png) #89d1ab;
+  /* background:url(../images/bg-noise.png) #89d1ab; */
+  background: #383C48;
   /*background-size: cover; */
   
 }
 .service .background_service{
-  min-height: 557px;
+  min-height: 580px;
   height: 557px;
   width: 100%;
   position: relative;
@@ -1173,7 +1178,8 @@ a:hover {
 .contact {
   padding: 0px 0px;
   padding-top: 30px;
-  background:url(../images/bg-noise.png) #a3cbc2;
+  /* background:url(../images/bg-noise.png) #a3cbc2; */
+  background: #383C48;
   color: #fff;
   /*background-size: cover;*/
   
@@ -1752,6 +1758,7 @@ a:hover {
 
 .c-popup__head__logo img{
   height: 45px;
+  border-radius: 8px;
 }
 
 .cloud-background {
@@ -2041,4 +2048,21 @@ input:checked + .toggle .star--6 {
       display: none;
   }
 
+  .about {
+    margin-top: -2px;
+  }
+
+}
+
+.grass-animation-frame {
+  position: absolute;
+  width: 100%;
+  height: 100px;
+  bottom: 0;
+  left: 0;
+}
+
+#grass-animation {
+  display: block;
+  margin: 0;
 }

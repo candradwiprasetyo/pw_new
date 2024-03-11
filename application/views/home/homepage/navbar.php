@@ -23,6 +23,10 @@
   <div class="air-balloon"></div>
 </div>
 
+<div class="witch-frame">
+  <div class="witch"></div>
+</div>
+
 <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
       <div class="container">
         <div class="navbar-header">

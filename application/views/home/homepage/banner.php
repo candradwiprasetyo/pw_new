@@ -1,15 +1,15 @@
  
-    <script>
-        $(document).ready(function (){
-            $("#click").click(function (){
-              // $("html, body").animate({ scrollTop: 700 }, "medium");
-              $('html, body').animate({
-                scrollTop: ($('#about').offset().top-60)
-              }, 500);
-              return false;
-            });
+<script>
+    $(document).ready(function (){
+        $("#click").click(function (){
+          // $("html, body").animate({ scrollTop: 700 }, "medium");
+          $('html, body').animate({
+            scrollTop: ($('#about').offset().top-60)
+          }, 500);
+          return false;
         });
-    </script>
+    });
+</script>
 <!-- banner section BEGIN -->
 
 <div class="cloud-background">
@@ -72,11 +72,11 @@
         </div>
 
        
-        <div class="car-frame">
+        <!-- <div class="car-frame">
           <div class="car"></div>
           <div class="car2"></div>
           <div style="clear:both"></div>
-        </div>
+        </div> -->
 
         <div class="">
           <div class="tooltip tooltip-west">
@@ -91,13 +91,13 @@
               Hi, Welcome to my house <br> <button id="click" class="button_inhouse">Come In</button></span>
           </div>
         </div>
-        
+        <?php include 'grass.php'; ?>
         
 
       </div><!-- /.banner-content -->
 
 
-       
+      
     </section><!-- /.banner -->
     
     <!-- banner section END -->

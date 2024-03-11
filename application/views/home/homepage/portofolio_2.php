@@ -35,8 +35,8 @@
 								'',
 								'',
 								'',
-								'',
-								'',
+								'Occhio',
+								'PIF Ventures',
 								'8Bulbs',
 								'News DDTC',
 								'Ciayo',
@@ -47,8 +47,10 @@
 								'BukaNonton',
 								'Pregnancy Partner',
 								'Bukalapak Career',
-								'Occhio',
+								'Pitch Foundation',
 								'Rasikh Morani',
+								'Perpajakan DDTC',
+								'Academy DDTC',
 								);
 					$ket_por = array(
 								'',
@@ -56,8 +58,8 @@
 								'',
 								'',
 								'',
-								'',
-								'',
+								'Website',
+								'Website',
 								'Website',
 								'Website',
 								'Virtual Social Media',
@@ -69,6 +71,8 @@
 								'Website',
 								'Website',
 								'Website',
+								'Website',
+								'Website',
 								'Website'
 								);
 					$filter_por = array(
@@ -77,8 +81,8 @@
 								'',
 								'',
 								'',
-								'',
-								'',
+								'website',
+								'website',
 								'webdesign',
 								'website',
 								'website',
@@ -90,7 +94,9 @@
 								'website',
 								'website',
 								'website',
-								'website'
+								'website',
+								'website',
+								'website',
 								);
 
 					$date_por = array(
@@ -112,11 +118,13 @@
 								'20 Sept 2020',
 								'',
 								'',
-								''
+								'',
+								'',
+								'',
 								);
 				$jml_por = count($date_por) - 1;
-                for($i=$jml_por;$i>6;$i--){
-					if ($i!=8) {
+                for($i=$jml_por;$i>4;$i--){
+							// if($i!=17 && $i!=7) {
 				?>
               	
 				<figure class="effect-milo <?php echo $filter_por[$i]; ?>">
@@ -126,8 +134,9 @@
                         <div class="portofolio_putih">
                         <div class="portofolio_putih_title"><?= $nama_por[$i] ?></div>
                         <div class="portofolio_putih_kecil"><?= $ket_por[$i] ?></div>
-                        
-                        <div class="portofolio_kiri">&nbsp;</div>
+                        <div class="portofolio_kiri">
+												
+												</div>
                         <div class="portofolio_kanan">
                         	<?php 
                         	switch($filter_por[$i]){ 
@@ -135,7 +144,6 @@
                         		case 'webapp': echo "WEB APPLICATION"; break; 
                         		case 'webdesign': echo "WEB DESIGN"; break; 
                         	}
-
                         	?></div>
                        
 						</div>
@@ -151,16 +159,18 @@
 
 				</figure>           
                 <?php
-					}
-				}
+							}
+					
+				// }
 			   ?>
 			</div>
         </div>
             </div>
         </div>
             </section>
-            <?php $this->load->view('home/homepage/portfolio/7'); ?>
-
+            <?php $this->load->view('home/homepage/portfolio/5'); ?>
+            <?php $this->load->view('home/homepage/portfolio/6'); ?>
+						<?php $this->load->view('home/homepage/portfolio/7'); ?>
             <?php $this->load->view('home/homepage/portfolio/8'); ?>
             <?php $this->load->view('home/homepage/portfolio/9'); ?>
             <?php $this->load->view('home/homepage/portfolio/10'); ?>
@@ -172,13 +182,15 @@
             <?php $this->load->view('home/homepage/portfolio/16'); ?>
             <?php $this->load->view('home/homepage/portfolio/17'); ?>
             <?php $this->load->view('home/homepage/portfolio/18'); ?>
+            <?php $this->load->view('home/homepage/portfolio/19'); ?>
+            <?php $this->load->view('home/homepage/portfolio/20'); ?>
 
             <div style="clear:both;"></div>
 
 
  <script type="text/javascript">
  	<?php
-	for($j=$jml_por;$j>6;$j--){
+	for($j=$jml_por;$j>4;$j--){
 	?>
  	$("#js_portfolio_<?= $j ?>").on('click', function() {
  		
