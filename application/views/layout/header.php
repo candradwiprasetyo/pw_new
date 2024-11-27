@@ -69,7 +69,7 @@
     <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
 
     <!-- Main CSS -->
-    <link href="<?= base_url() ?>assets/css/style.css?v=9" rel="stylesheet">
+    <link href="<?= base_url() ?>assets/css/style.css?v=10" rel="stylesheet">
 
   
   </head>

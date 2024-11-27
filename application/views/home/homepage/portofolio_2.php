@@ -17,8 +17,8 @@
             <div class="def-btn filterbutton">Web Design</div> 
           </a>
           
-           <a href="javascript:void(0)" data-filter=".webapp" style="outline:none;">
-            <div class="def-btn filterbutton">Web Application</div> 
+           <a href="javascript:void(0)" data-filter=".mobileapplication" style="outline:none;">
+            <div class="def-btn filterbutton">Mobile Application</div> 
           </a>
         </div><!--/.portfoliofilter -->
       </div><!--/.container -->
@@ -51,6 +51,7 @@
 								'Rasikh Morani',
 								'Perpajakan DDTC',
 								'Academy DDTC',
+								'CPOPC DigiApp',
 								);
 					$ket_por = array(
 								'',
@@ -58,22 +59,23 @@
 								'',
 								'',
 								'',
+								'Web Design',
 								'Website',
-								'Website',
-								'Website',
+								'Web Design',
 								'Website',
 								'Virtual Social Media',
 								'Website',
 								'Website',
 								'Website',
-								'Game Mobile Web',
+								'Game Mobile',
 								'Web Mobile',
 								'Website',
 								'Website',
 								'Website',
 								'Website',
 								'Website',
-								'Website'
+								'Website',
+								'Mobile Application',
 								);
 					$filter_por = array(
 								'',
@@ -81,7 +83,7 @@
 								'',
 								'',
 								'',
-								'website',
+								'webdesign',
 								'website',
 								'webdesign',
 								'website',
@@ -89,14 +91,15 @@
 								'website',
 								'website',
 								'website',
-								'webapp',
-								'webapp',
+								'mobileapplication',
+								'mobileapplication',
 								'website',
 								'website',
 								'website',
 								'website',
 								'website',
 								'website',
+								'mobileapplication',
 								);
 
 					$date_por = array(
@@ -116,6 +119,7 @@
 								'1 August 2019',
 								'5 Apr 2019',
 								'20 Sept 2020',
+								'',
 								'',
 								'',
 								'',
@@ -141,7 +145,7 @@
                         	<?php 
                         	switch($filter_por[$i]){ 
                         		case 'website': echo "WEBSITE"; break; 
-                        		case 'webapp': echo "WEB APPLICATION"; break; 
+                        		case 'mobileapplication': echo "MOBILE APPLICATION"; break; 
                         		case 'webdesign': echo "WEB DESIGN"; break; 
                         	}
                         	?></div>
@@ -184,6 +188,7 @@
             <?php $this->load->view('home/homepage/portfolio/18'); ?>
             <?php $this->load->view('home/homepage/portfolio/19'); ?>
             <?php $this->load->view('home/homepage/portfolio/20'); ?>
+            <?php $this->load->view('home/homepage/portfolio/21'); ?>
 
             <div style="clear:both;"></div>
 

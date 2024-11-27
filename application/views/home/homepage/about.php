@@ -41,21 +41,20 @@
            <br />
             <br />
            <span style="color:#fff;">
-          <span class="c-title">Hi, My Name is <b>Candra Dwi Prasetyo</b></span><br><br><p>I'm FRONT END DEVELOPER
-					based in Surabaya, East Java, Indonesia.
+          <span class="c-title">Hi, My Name is <b>Candra Dwi Prasetyo</b></span><br><br><p>I'm FRONTEND DEVELOPER
+					based in Jakarta, Indonesia.
 					My expertise is web design, web programming and web application. I've designed websites for small businesses, company profile, personal website, more.
            </p>
          </span>
            </div>	
            <div class="col-md-6 col-md-offset-3 title text-center " data-wow-delay="0.1s">
            <div class="buttons">
-              <div class="form-group">
-                <!-- <div class="col-md-6">
-                  <a href="<?= base_url() ?>assets/files/ResumeCandraDwiPrasetyo.pdf" target="_blank" class="def-btn about_button wow animated fadeInLeft"><strong>Download My CV</strong></a>
-                </div> -->
-              </div>
-                 <div class="form-group">
-                  <div class="col-md-6 col-md-offset-3">
+             
+            <div class="form-group">
+                <div class="col-md-6">
+                  <a href="<?= base_url() ?>assets/files/CV_candradwiprasetyo.pdf" target="_blank" class="def-btn about_button wow animated fadeInLeft"><strong>Download My CV</strong></a>
+                </div>
+                  <div class="col-md-6">
                     <a id="dialogModal_ex1" data-modal="modal-1"  class="def-btn about_button wow animated fadeInRight" style="cursor:pointer;"><strong>Know Me Better</strong></a>
                   </div>
               </div>

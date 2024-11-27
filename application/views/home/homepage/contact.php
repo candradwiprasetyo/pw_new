@@ -1,6 +1,6 @@
 
 <!-- contact section BEGIN  -->
-    <section class="contact" id="contact">
+<section class="contact" id="contact">
        <div class="background_contact">
       <div class="container"> 
 
@@ -47,16 +47,16 @@
           <p>
             Candra Dwi Prasetyo <br/>
             <!-- Gayungsari Timur X No 1 <br/> -->
-            Surabaya, East Java, Indonesia <br/>
-            (0858) 5777 7414 <br/>
-            candradwiprasetyo@gmail.com 
+            Jakarta, Indonesia <br/>
+            (+62) 8585 7777 414 <br/>
+            <a href="mailto:candradwiprasetyo@gmail.com" style="color: white">candradwiprasetyo@gmail.com</a>
           </p>
           
         </div>
          <div class=" text-center wow animated fadeInUp">
             <ul class="icons">
 					
-					<li><a target="_blank" href="https://web.facebook.com/candradwprasetyo" class="icon circle fa-facebook"><span class="label">Facebook</span></a></li>
+					<!--<li><a target="_blank" href="https://web.facebook.com/candradwprasetyo" class="icon circle fa-facebook"><span class="label">Facebook</span></a></li>-->
 					<li><a target="_blank" href="https://github.com/candradwiprasetyo" class="icon circle fa-github"><span class="label">Github</span></a></li>
 					<li><a target="_blank" href="https://id.linkedin.com/in/candra-dwi-prasetyo" class="icon circle fa-linkedin"><span class="label">Github</span></a></li>
 				</ul>
