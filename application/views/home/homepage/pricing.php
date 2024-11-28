@@ -66,24 +66,25 @@
 
         <br>
         <div class="title text-center wow animated fadeInDown"><h1>Pricing <strong>Table</strong></h1></div>
-        
+        <br>
         
        
 
-        <div class="col-md-4 col-md-offset-4">
+        <div class="col-md-4 col-md-offset-4" style="transform: rotate(3deg);">
 
-          <div class="pricing-table active wow animated fadeInUp" data-wow-delay="0.1s">
-            <div class="header">
-              <h3>RECOMMENDED</h3></div>
-            <div class="price"><span class="textbold">NEGOTIABLE</span></div>
+          <div class="pricing-table active wow animated fadeInUp" data-wow-delay="0.1s" style="border-radius: 20px">
+              <div class="header" style="border-radius: 20px 20px 0 0">
+                Dinner <strong> Menu</strong></div>
+            <!-- <div class="price" style="border-radius: 20px 20px 0 0"><span class="textbold">NEGOTIABLE</span></div> -->
             <div class="list">
               <ul>
-                <li><span class="textbold">Have a <strong>Awesome Project ?</strong> </span></li>
-                <li><span class="textbold">Need creative <strong>help ?</strong> </span></li>
-                <li><span class="textbold">Or want to make the <strong>Team ?</strong></span> </li>
-                <li><span class="textbold">And wants to change the <strong>WORLD ?</strong> </span></li>
-                <li><span class="textbold"></span></li>
-                <li><span class="notice">Dont waste ur time !</span></li>
+                <li>
+                  <div class="paper-clip"></div>
+                  <span class="textbold ">Have an <strong>Awesome Project ?</strong> </span></li>
+                <li><div class="paper-clip"></div><span class="textbold ">Need creative <strong>help ?</strong> </span></li>
+                <li><div class="paper-clip"></div><span class="textbold ">Or want to make the <strong>Team ?</strong></span> </li>
+                <!-- <li><span class="textbold">And wants to change the <strong>WORLD ?</strong> </span></li> -->
+                <li><div class="paper-clip"></div><span class="notice">Dont waste ur time !</span></li>
               </ul>
               <button id="click_pricing" class="def-btn">Get In Touch</button>
             </div>
@@ -97,3 +98,15 @@
     </div>
     </section>
     <!-- pricing section END  -->
+
+<style>
+  .paper-clip {
+    position: absolute;
+    margin-left: -10px;
+    margin-top: 5px;
+    width: 30px;
+    height: 10px;
+    background: #dedcc9;
+    border-radius: 5px;
+  }
+</style>

@@ -29,14 +29,13 @@
                     <div class="cd-timeline-block">
                       
                       <div class="cd-timeline-img cd-default">
-                        <img src="<?= base_url() ?>assets/images/work.png" alt="Picture">
+                      <img src="<?= base_url() ?>assets/images/logo/elkabumi.png" alt="Picture">
                       </div> <!-- cd-timeline-img --> 
                 
                       <div class="cd-timeline-content">
 
                         <h2>Elkabumi Caraka Daya </h2>
-                        <p>I started my career as a junior web developer at Elkabumi Software House based in Surabaya.
-                          I learned many programming languages ​​and frameworks such as codeigniter, laravel, and angular
+                        <p>I started my career as a Web Developer at Elkabumi Software House in Surabaya, where I developed expertise in various programming languages and frameworks, including CodeIgniter, Laravel, and Angular.
                         </p>
                         
                         <span class="cd-date">Jun 16, 2011</span>
@@ -60,12 +59,12 @@
     
                     <div class="cd-timeline-block">
                      <div class="cd-timeline-img cd-default">
-                        <img src="<?= base_url() ?>assets/images/work.png" alt="Picture">
+                     <img src="<?= base_url() ?>assets/images/logo/webtocrat.png" alt="Picture">
                       </div> <!-- cd-timeline-img -->
                 
                       <div class="cd-timeline-content">
                         <h2>Webtocrat Motion </h2>
-                        <p> Webtocrat Motion is a company engaged in website creation services, focus on technology research and branding strategy for a product
+                        <p> Webtocrat Motion is a company engaged in website creation services, focus on technology research and branding strategy for a product.
                         </p>
                         <span class="cd-date">Jun 01, 2015</span>
                       </div> <!-- cd-timeline-content -->
@@ -73,12 +72,12 @@
 
                      <div class="cd-timeline-block">
                      <div class="cd-timeline-img cd-default">
-                        <img src="<?= base_url() ?>assets/images/work.png" alt="Picture">
+                     <img src="<?= base_url() ?>assets/images/logo/dcc.png" alt="Picture">
                       </div> <!-- cd-timeline-img -->
                 
                       <div class="cd-timeline-content">
                         <h2>Dragon Capital Center </h2>
-                        <p>This is my first experience joining a startup company. Dragon Capital Center create website for "The first Virtual Social Media in the World CIAYO". https://www.ciayo.com/
+                        <p>This was my first experience working with a startup company. Dragon Capital Center developed platform for "The first Virtual Social Media in the World CIAYO". https://www.ciayo.com/.
 
                         </p>
                         <span class="cd-date">Mar 03, 2016</span>
@@ -87,7 +86,7 @@
 
                     <div class="cd-timeline-block">
                      <div class="cd-timeline-img cd-default">
-                        <img src="<?= base_url() ?>assets/images/work.png" alt="Picture">
+                     <img src="<?= base_url() ?>assets/images/logo/bukalapak.png" alt="Picture">
                       </div> <!-- cd-timeline-img -->
                 
                       <div class="cd-timeline-content">
@@ -101,7 +100,7 @@
 
                     <div class="cd-timeline-block">
                      <div class="cd-timeline-img cd-default">
-                        <img src="<?= base_url() ?>assets/images/work.png" alt="Picture">
+                     <img src="<?= base_url() ?>assets/images/logo/ddtc.png" alt="Picture">
                       </div> <!-- cd-timeline-img -->
                 
                       <div class="cd-timeline-content">
@@ -112,10 +111,24 @@
                         <span class="cd-date">Sept 01, 2019</span>
                       </div> <!-- cd-timeline-content -->
                     </div> <!-- cd-timeline-block --> 
+
+                    <div class="cd-timeline-block">
+                     <div class="cd-timeline-img cd-default">
+                        <img src="<?= base_url() ?>assets/images/logo/govtech.png" alt="Picture">
+                      </div> <!-- cd-timeline-img -->
+                
+                      <div class="cd-timeline-content">
+                        <h2>Govtech Edu </h2>
+                        <p>The Indonesian government's thought and development partner in driving national-scale transformation through technology.
+
+                        </p>
+                        <span class="cd-date">Jan 01, 2022</span>
+                      </div> <!-- cd-timeline-content -->
+                    </div> <!-- cd-timeline-block --> 
     
                     <div class="cd-timeline-block" style="margin-bottom:20px;">
                       <div class="cd-timeline-img cd-default">
-                        <img src="<?= base_url() ?>assets/images/now.png" alt="Picture">
+                        <img src="<?= base_url() ?>assets/images/logo/now.png" alt="Picture">
                       </div> <!-- cd-timeline-img -->
                     </div> <!-- cd-timeline-block --> 
     

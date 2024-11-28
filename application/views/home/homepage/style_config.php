@@ -277,7 +277,8 @@ a:hover {
     /* Force Hardware Acceleration in WebKit */
     -webkit-transform: translateZ(0);
     -webkit-backface-visibility: hidden;
-	background:<?= $bg_color?>
+		background: white;
+		text-align: center;
   }
   .cssanimations .cd-timeline-img.is-hidden {
     visibility: hidden;

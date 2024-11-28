@@ -1,23 +1,23 @@
-<div id="divForm_21" class="c-popup">
+<div id="divForm_22" class="c-popup">
 	<div class="c-popup__head">
     <div class="row">
       <div class="col-md-8">
         <div class="c-popup__head__logo">
           <img src="<?= base_url() ?>assets/images/portfolio_2/brand/cpopc-brand.png">
         </div>
-        <div class="c-popup__head__title">CPOPC DigiApp</div>
+        <div class="c-popup__head__title">CPOPC Event Management</div>
         <div class="c-popup__head__subtitle">
-          Mobile Application
+          Website
         </div>
       </div>
       <div class="col-md-4 c-popup__head__close">
-        <a href="https://play.google.com/store/apps/details?id=com.app.cpopc" target="_blank" class="def-btn close_button" style="text-decoration: none; color: #fff;"><strong>Take a look</strong></a>
+        <a href="https://cpopcdigiapp.net" target="_blank" class="def-btn close_button" style="text-decoration: none; color: #fff;"><strong>Take a look</strong></a>
       </div>
     </div>
 	</div>
 	
      <div class="c-popup__content">
-          <img src="<?= base_url() ?>assets/images/portfolio_2/cpopc-banner.png" /> 
+          <img src="<?= base_url() ?>assets/images/portfolio_2/event-management.png" /> 
 	</div>
 	<div class="c-popup__description">
     <div class="row">
@@ -25,7 +25,7 @@
         <div class="c-popup__description__summary">
           <div class="c-popup__description__title">What's?</div>
           <div>
-          Council of Palm Oil Producing Countries (CPOPC) is an intergovernmental organization for palm oil producing countries. The Council was established on 21 November 2015, thanks to genuine awareness of the need of mutual cooperation among palm oil producing nations.
+          A web application developed to facilitate event management and coordination for CPOPC (Council of Palm Oil Producing Countries). This platform streamlines the planning, organization, and execution of various events, ensuring seamless communication and efficient management for all stakeholders involved.
 
           </div>
         </div>

@@ -25,7 +25,7 @@
         <div class="c-popup__description__summary">
           <div class="c-popup__description__title">What's?</div>
           <div>
-           Rasikh Morani's personal website
+            Rasikh Morani is the founder of Arcadia, a smart contract and blockchain economic security company out of Dallas, Texas.
           </div>
         </div>
       </div>

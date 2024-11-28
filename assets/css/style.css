@@ -916,7 +916,9 @@ a:hover {
   margin-top: 0px;
 }
 .pricing .pricing-table.active .header {
-  background: #666666;
+  background: #B88E62;
+  color: white;
+  font-size: 26px;
 }
 .pricing .pricing-table.active .header h3 {
   color: #ffffff;
@@ -937,7 +939,7 @@ a:hover {
   color: #ffffff;
 }
 .pricing .pricing-table .list {
-  padding: 10px 0px;
+  padding-bottom: 10px;
   text-align: center;
   margin-bottom:20px;
 }
@@ -947,7 +949,8 @@ a:hover {
   padding-left: 0px;
 }
 .pricing .pricing-table .list ul li {
-  padding: 7px 0px;
+  padding: 12px 0px;
+  border-bottom: 1px solid #eee;
 }
 .pricing .pricing-table .list .def-btn {
   margin: 15px 0px;

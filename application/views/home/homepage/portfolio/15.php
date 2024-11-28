@@ -32,7 +32,7 @@
       <div class="col-md-3">
         <div class="c-popup__description__title">Technology</div>
         <div class="c-popup__description__tech">
-          <div class="c-popup__description__tech__item"><img src="<?= base_url() ?>assets/images/technology/react.png"> React Js</div>
+          <div class="c-popup__description__tech__item"><img src="<?= base_url() ?>assets/images/technology/react.png"> ReactJs</div>
           <div class="c-popup__description__tech__item"><img src="<?= base_url() ?>assets/images/technology/ci.png"> Codeigniter</div>
           <div class="c-popup__description__tech__item"><img src="<?= base_url() ?>assets/images/technology/mysql.png"> MySQL</div>
         </div>

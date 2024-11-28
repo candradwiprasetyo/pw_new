@@ -52,6 +52,9 @@
 								'Perpajakan DDTC',
 								'Academy DDTC',
 								'CPOPC DigiApp',
+								'CPOPC Event Management',
+								'Rapor Pendidikan',
+								'The Garden Landing Page',
 								);
 					$ket_por = array(
 								'',
@@ -76,6 +79,9 @@
 								'Website',
 								'Website',
 								'Mobile Application',
+								'Website',
+								'Website',
+								'Website',
 								);
 					$filter_por = array(
 								'',
@@ -100,6 +106,9 @@
 								'website',
 								'website',
 								'mobileapplication',
+								'website',
+								'website',
+								'website',
 								);
 
 					$date_por = array(
@@ -119,6 +128,9 @@
 								'1 August 2019',
 								'5 Apr 2019',
 								'20 Sept 2020',
+								'',
+								'',
+								'',
 								'',
 								'',
 								'',
@@ -189,6 +201,9 @@
             <?php $this->load->view('home/homepage/portfolio/19'); ?>
             <?php $this->load->view('home/homepage/portfolio/20'); ?>
             <?php $this->load->view('home/homepage/portfolio/21'); ?>
+            <?php $this->load->view('home/homepage/portfolio/22'); ?>
+            <?php $this->load->view('home/homepage/portfolio/23'); ?>
+            <?php $this->load->view('home/homepage/portfolio/24'); ?>
 
             <div style="clear:both;"></div>
 
