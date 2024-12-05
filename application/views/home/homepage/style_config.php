@@ -54,14 +54,14 @@ a:hover {
 /*       02 - Navbar Elements
 /*==========================================*/
 .navbar-inverse.scroll-fixed-navbar .navbar-nav li:hover a {
-  color: #888888;
+  color: #fff;
 }
 .navbar-inverse.scroll-fixed-navbar .navbar-nav li.active a {
-  color: #888888;
+  color: #fff;
   font-weight:bold;
 }
 .navbar-inverse.scroll-fixed-navbar .navbar-nav li.active a:hover {
-  color: #888888;
+  color: #fff;
 }
 /*==========================================*/
 /*       03 - Banner Elements
@@ -188,7 +188,7 @@ a:hover {
   color:#fff;
   font-weight:bold;
   opacity:0.7;
-  
+  border-radius: 6px;
 }
 .contact .footer-form .button-container .def-btn:hover {
   border: 1px solid <?= $bg_color ?>;
@@ -211,7 +211,7 @@ a:hover {
 @media (max-width: 768px) {
   .navbar-inverse .navbar-toggle {
     border: 1px solid <?= $bg_color ?>;
-    margin: 23px 10px;
+    margin: 15px 10px;
   }
   .navbar-inverse .navbar-toggle span.icon-bar {
     background: <?= $bg_color ?>;
@@ -228,6 +228,10 @@ a:hover {
   }
   .navbar-inverse .navbar-collapse ul.navbar-nav li a:hover {
     background: <?= $bg_color ?>;
+  }
+
+	.navbar-inverse.scroll-fixed-navbar .navbar-nav li.active a {
+    color: #666;
   }
 }
 
@@ -309,6 +313,7 @@ a:hover {
 .form-control{
 	height:50px;
 	margin-bottom:20px;
+	border-radius: 6px;
 }
 
 
@@ -516,7 +521,7 @@ figure.effect-zoe figcaption {
 	background-color:#fff;
 	text-shadow:none;
 	color:#d84444;
-	border-radius: 3px;
+	border-radius: 6px;
 }
 .about_button:hover{
 	background:#d84444;

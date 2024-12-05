@@ -116,9 +116,15 @@ a:hover {
   -webkit-transition: background 0.5s ease-in-out, padding 0.5s ease-in-out;
   -moz-transition: background 0.5s ease-in-out, padding 0.5s ease-in-out;
   transition: background 0.5s ease-in-out, padding 0.5s ease-in-out;
-  /*-webkit-box-shadow: 0 0 7px rgba(0, 0, 0, 0.1);
+  /* -webkit-box-shadow: 0 0 7px rgba(0, 0, 0, 0.1);
   -moz-box-shadow: 0 0 7px rgba(0, 0, 0, 0.1);
-  box-shadow: 0 0 7px rgba(0, 0, 0, 0.1);*/
+  box-shadow: 0 0 7px rgba(0, 0, 0, 0.1); */
+  border-radius: 50px;
+  left: 50%;
+  transform: translateX(-50%);
+  padding-left: 20px;
+  padding-right: 20px;
+  right: unset;
 }
 .navbar-inverse_new {
   margin-top: 70px;
@@ -129,13 +135,14 @@ a:hover {
 }
 .navbar-fixed-top{
   border:0px;
+  top: 10px;  
 }
 .navbar-inverse .navbar-brand {
   color: var(--text-navbar);
   padding: 0px;
   padding-top:10px;
-  height: 40px;
-  margin: 20px 10px;
+  height: 25px;
+  margin: 10px;
   font-size:14px;
   text-transform:uppercase;
 }
@@ -143,7 +150,7 @@ a:hover {
   color: var(--text-navbar);
   font-size: 14px;
   text-transform: capitalize;
-  padding: 30px 20px;
+  padding: 20px 20px;
   outline:none;
   font-weight:500;
   
@@ -167,23 +174,28 @@ a:hover {
   color: var(--text-navbar);
 }
 .navbar-inverse.scroll-fixed-navbar {
-  background: #ffffff;
   -webkit-box-shadow: 0 0 7px rgba(0, 0, 0, 0.1);
   -moz-box-shadow: 0 0 7px rgba(0, 0, 0, 0.1);
   box-shadow: 0 0 7px rgba(0, 0, 0, 0.1);
   color: #666;
+
+  opacity: 1;
+  /* background-color: white; */
+  backdrop-filter: blur(8px);
+  color: rgb(236, 254, 255);
+  background-color: rgba(0, 0, 0, 0.3);
+  -webkit-transition: background 0.5s ease-in-out, padding 0.5s ease-in-out;
+  -moz-transition: background 0.5s ease-in-out, padding 0.5s ease-in-out;
+  transition: background 0.5s ease-in-out, padding 0.5s ease-in-out;
 }
-/*.navbar-inverse.scroll-fixed-navbar .navbar-brand {
-  color:#666;
-  background: url("../../images/logo-dark.png") no-repeat center;
-}*/
+
 .navbar-inverse.scroll-fixed-navbar .navbar-nav li a {
-  color: #999;
-  padding: 30px 20px;
+  color: #fff;
+  padding: 20px 20px;
 }
 
 .navbar-inverse.scroll-fixed-navbar .navbar-header .navbar-brand {
-  color: #999;
+  color: #fff;
 }
 /*==========================================*/
 /*       03 - Banner Elements
@@ -730,9 +742,9 @@ a:hover {
   background: #fff;
   margin-right: 5px;
   margin-bottom: 10px;
-   outline:none !important;
-   border-radius: 3px;
-   font-weight: bold;
+  outline:none !important;
+  border-radius: 6px;
+  font-weight: bold;
 }
 .portfolio .portfoliofilter a.current .filterbutton {
   color: #ffffff;
@@ -1365,7 +1377,6 @@ a:hover {
 @media (max-width: 768px) {
   .banner {
     
-  margin-top:50px;
   height: 500px;
  
 }
@@ -1386,6 +1397,14 @@ a:hover {
     -webkit-box-shadow: 0 0 7px rgba(0, 0, 0, 0.1);
     -moz-box-shadow: 0 0 7px rgba(0, 0, 0, 0.1);
     box-shadow: 0 0 7px rgba(0, 0, 0, 0.1);
+    width: 95%;
+  }
+
+  .navbar-inverse.scroll-fixed-navbar {
+    background: #ffffff;
+  }
+  .navbar-inverse.scroll-fixed-navbar .navbar-header .navbar-brand {
+    color: #666;
   }
   .navbar-inverse .navbar-toggle {
     margin: 23px 10px;
@@ -1455,7 +1474,7 @@ a:hover {
     margin-top: 15px;
   }
   .navbar-inverse .navbar-collapse ul.navbar-nav li a {
-    padding: 30px 20px;
+    padding: 20px 16px;
   }
   .testimonial .carousel .item .text {
     width:75%;
@@ -1470,7 +1489,6 @@ a:hover {
 @media (max-width: 480px) {
    .banner {
   height: 300px;
-  margin-top:50px;
  
 }
 
@@ -1806,7 +1824,7 @@ a:hover {
 .toggleWrapper {
   /*position: absolute;*/
   overflow: hidden;
-  margin-top: 26px;
+  margin-top: 16px;
   margin-left: 20px;
   right: 0;
 }
