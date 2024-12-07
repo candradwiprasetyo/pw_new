@@ -79,19 +79,17 @@ Modules - reusable parts of our design
   width: 40px;
   height: 40px;
   border-radius: 50%;
-  /* box-shadow: 0 0 0 4px white, inset 0 2px 0 rgba(0, 0, 0, 0.08), 0 3px 0 4px rgba(0, 0, 0, 0.05); */
-   background:#67A1C6;
+  background: white;
+  text-align: center;
 }
 
 .cd-timeline-img img {
-  display: block;
-  width:35px;
-  height: 35px;
+  
+  width: 60%;
+  height: 60%;
   position: relative;
-  left: 40%;
-  top: 40%;
-  margin-left: -12px;
-  margin-top: -12px;
+  text-align: center;
+  margin-top: 20%;
  
 }
 .cd-timeline-img.cd-picture {

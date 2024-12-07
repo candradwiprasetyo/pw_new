@@ -238,7 +238,7 @@
 
  </script>
 
- <style>
+ <!-- <style>
 	<?php
 	for($j=$jml_por;$j>4;$j--){
 		$random = rand(-3, 3)
@@ -247,4 +247,4 @@
 			transform: rotate(<?= $random ?>deg);
 		}
 	<?php } ?>
- </style>
+ </style> -->

@@ -862,7 +862,7 @@ body{
   position: absolute;
   background: url("../images/workspace-body.png");
   margin-left: 432px;
-  margin-top: 48px;
+  margin-top: 47px;
 }
 
 .study-lamp{
@@ -870,7 +870,7 @@ body{
   height: 321px;
   position: absolute;
   background: url("../images/study_lamp.png");
-  margin-top: 23px;
+  margin-top: 21px;
   margin-left: 150px;
 }
 

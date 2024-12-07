@@ -6,11 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="icon" href="assets/images/logo_small.ico">
     <title>Candra Dwi Prasetyo</title>
-    <meta name="description" content="I am a FRONT END DEVELOPER based in Surabaya, East Java, Indonesia. My skills are web design, web programming and web application. I've designed websites for small businesses, company profile, personal website, more." />
+    <meta name="description" content="I am a Frontend Developer based in Jakarta, Indonesia, specializing in web design, web development, and web application solutions. I have extensive experience designing and developing websites for small businesses, corporate profiles, personal portfolios, and more." />
     <meta property="og:title" content="Candra Dwi Prasetyo" />
-    <meta property="og:description" content="I am a FRONT END DEVELOPER based in Surabaya, East Java, Indonesia. My skills are web design, web programming and web application. I've designed websites for small businesses, company profile, personal website, more." />
+    <meta property="og:description" content="I am a Frontend Developer based in Jakarta, Indonesia, specializing in web design, web development, and web application solutions. I have extensive experience designing and developing websites for small businesses, corporate profiles, personal portfolios, and more." />
     <meta property="og:image" content="http://oi63.tinypic.com/153wd8w.jpg" />
-    <meta property="og:url" content="https://www.candradwiprasetyo.com" />
+    <meta property="og:url" content="https://candradwiprasetyo.com" />
     <meta property="og:site_name" content="Candra Dwi Prasetyo" />
 
     
@@ -43,7 +43,7 @@
     <!--<link rel="stylesheet" type="text/css" href="<?= base_url() ?>assets/css/link.min.css" />-->
 
     <!-- own animate -->
-    <link rel="stylesheet" type="text/css" href="<?= base_url() ?>assets/css/own-animate.css" />
+    <link rel="stylesheet" type="text/css" href="<?= base_url() ?>assets/css/own-animate.css?v=2" />
     
      <!-- sweet alert -->
     <script src="<?= base_url() ?>assets/js/alert/sweet-alert.min.js"></script>
@@ -69,7 +69,7 @@
     <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
 
     <!-- Main CSS -->
-    <link href="<?= base_url() ?>assets/css/style.css?v=16" rel="stylesheet">
+    <link href="<?= base_url() ?>assets/css/style.css?v=17" rel="stylesheet">
 
   
   </head>

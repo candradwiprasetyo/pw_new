@@ -7,10 +7,10 @@
           <div class="item_frame">
             <section>
               <div class="text">
-                <div class="title"><h4><b>Custom Website</b> Development Services</h4></div>
+                <div class="title"><h4>Custom Website <b>Development Services</b></h4></div>
                 <div class="description">
                   <p>
-                 I can help you with your web development needs as well. I can deliver exactly what you are looking for, such as a custom e-commerce application, client portals for you and your clients to use. I can develop a custom website that integrates easily and seamlessly with your business.
+                  I can provide all your web development needs by delivering customized solutions that meet your exact requirements. I ensure functionality and user satisfaction while specializing in creating custom websites that integrate seamlessly with your business operations.
                   </p>
                 </div>
               </div>

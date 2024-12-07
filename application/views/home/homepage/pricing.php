@@ -80,11 +80,11 @@
               <ul>
                 <li>
                   <div class="paper-clip"></div>
-                  <span class="textbold ">Have an <strong>Awesome Project ?</strong> </span></li>
-                <li><div class="paper-clip"></div><span class="textbold ">Need creative <strong>help ?</strong> </span></li>
-                <li><div class="paper-clip"></div><span class="textbold ">Or want to make the <strong>Team ?</strong></span> </li>
+                  <span class="textbold ">Have an <strong>Awesome Project?</strong> </span></li>
+                <li><div class="paper-clip"></div><span class="textbold ">Need creative <strong>help?</strong> </span></li>
+                <li><div class="paper-clip"></div><span class="textbold ">Or want to make a <strong>Team?</strong></span> </li>
                 <!-- <li><span class="textbold">And wants to change the <strong>WORLD ?</strong> </span></li> -->
-                <li><div class="paper-clip"></div><span class="notice">Dont waste ur time !</span></li>
+                <li><div class="paper-clip"></div><span class="notice">Dont waste your time!</span></li>
               </ul>
               <button id="click_pricing" class="def-btn">Get In Touch</button>
             </div>

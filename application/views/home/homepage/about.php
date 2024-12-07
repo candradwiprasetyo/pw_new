@@ -41,9 +41,7 @@
            <br />
             <br />
            <span style="color:#fff;">
-          <span class="c-title">Hi, My Name is <b>Candra Dwi Prasetyo</b></span><br><br><p>I'm FRONTEND DEVELOPER
-					based in Jakarta, Indonesia.
-					My expertise is web design, web programming and web application. I've designed websites for small businesses, company profile, personal website, more.
+          <span class="c-title">Hi, My Name is <b>Candra Dwi Prasetyo</b></span><br><br><p>I am a Frontend Developer based in Jakarta, Indonesia, specializing in web design, web development, and web application solutions. I have extensive experience designing and developing websites for small businesses, corporate profiles, personal portfolios, and more.
            </p>
          </span>
            </div>	
@@ -51,7 +49,7 @@
            <div class="buttons">
              
             <div class="form-group">
-                <div class="col-md-6">
+                <div class="col-md-6" style="margin-bottom: 5px">
                   <a href="<?= base_url() ?>assets/files/CV_candradwiprasetyo.pdf" target="_blank" class="def-btn about_button wow animated fadeInLeft"><strong>Download My CV</strong></a>
                 </div>
                   <div class="col-md-6">

@@ -77,7 +77,7 @@
                 
                       <div class="cd-timeline-content">
                         <h2>Dragon Capital Center </h2>
-                        <p>This was my first experience working with a startup company. Dragon Capital Center developed platform for "The first Virtual Social Media in the World CIAYO". https://www.ciayo.com/.
+                        <p>This was my first experience working with a startup company. Dragon Capital Center developed platform for "The first Virtual Social Media in the World CIAYO".
 
                         </p>
                         <span class="cd-date">Mar 03, 2016</span>
