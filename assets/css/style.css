@@ -708,8 +708,8 @@ a:hover {
 
 .portfolio {
   padding: 50px 0px;
-  background: url("../images/bg-noise.png")  #fedfb5;
- 
+  /* background: url("../images/bg-noise.png")  #fedfb5; */
+  background-image: linear-gradient(90deg, rgb(253, 239, 227) 0%, rgb(243, 244, 243) 50%, rgb(220, 229, 255) 100%);
 }
 
 .portfolio .background_portfolio{
@@ -890,7 +890,8 @@ a:hover {
   width: 100%;
   z-index: 1;
   /*background:url(../images/bg-noise.png) #f5f2c7;*/
-  background:url(../images/bg-noise.png) #f5f2c7;
+  /* background:url(../images/bg-noise.png) #f5f2c7; */
+  background-image: linear-gradient(90deg, rgb(253, 239, 227) 0%, rgb(243, 244, 243) 50%, rgb(220, 229, 255) 100%);
   position: relative;
 }
 .pricing .background_pricing{
@@ -900,7 +901,7 @@ a:hover {
   position: relative;
   display: table;
   z-index: 1;
-  background:url(../images/kitchen.png) no-repeat top;
+  background:url(../images/kitchen-2.png) no-repeat top;
 }
 .pricing .title h1 {
   margin-bottom: 30px;

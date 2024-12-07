@@ -141,9 +141,10 @@
 				$jml_por = count($date_por) - 1;
                 for($i=$jml_por;$i>4;$i--){
 							// if($i!=17 && $i!=7) {
+							
 				?>
               	
-				<figure class="effect-milo <?php echo $filter_por[$i]; ?>">
+				<figure class="effect-milo effect-milo-<?= $i ?> <?php echo $filter_por[$i]; ?>">
 				<a id="js_portfolio_<?= $i ?>" title="<?= $nama_por[$i] ?>"><img src="<?= base_url() ?>assets/images/portofolio_new/<?= $i ?>.jpg" alt="img<?= $i ?>"/>
 					<figcaption>
 						
@@ -236,3 +237,14 @@
   ?>
 
  </script>
+
+ <style>
+	<?php
+	for($j=$jml_por;$j>4;$j--){
+		$random = rand(-3, 3)
+	?>
+		.effect-milo-<?= $j ?> {
+			transform: rotate(<?= $random ?>deg);
+		}
+	<?php } ?>
+ </style>
